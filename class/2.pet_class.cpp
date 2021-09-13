@@ -23,7 +23,7 @@ void Pet_class::set_pet_name(string pet_name){
 
     this->pet_name=pet_name;
 }
-string Pet_class::set_pet_name(){
+string Pet_class::get_pet_name(){
 
     return pet_name;
 }
@@ -43,7 +43,4 @@ int Pet_class::get_age(){
 
     return age;
 }
-string Pet_class::to_string(void){
 
-
-}

@@ -65,27 +65,27 @@ include CMakeFiles/gym.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gym.dir/flags.make
 
-CMakeFiles/gym.dir/4.gym_activity.cpp.obj: CMakeFiles/gym.dir/flags.make
-CMakeFiles/gym.dir/4.gym_activity.cpp.obj: ../4.gym_activity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gym.dir/4.gym_activity.cpp.obj"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gym.dir\4.gym_activity.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\4.gym_activity.cpp"
+CMakeFiles/gym.dir/structs/4.gym_activity.cpp.obj: CMakeFiles/gym.dir/flags.make
+CMakeFiles/gym.dir/structs/4.gym_activity.cpp.obj: ../structs/4.gym_activity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gym.dir/structs/4.gym_activity.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gym.dir\structs\4.gym_activity.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\structs\4.gym_activity.cpp"
 
-CMakeFiles/gym.dir/4.gym_activity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gym.dir/4.gym_activity.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\4.gym_activity.cpp" > CMakeFiles\gym.dir\4.gym_activity.cpp.i
+CMakeFiles/gym.dir/structs/4.gym_activity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gym.dir/structs/4.gym_activity.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\structs\4.gym_activity.cpp" > CMakeFiles\gym.dir\structs\4.gym_activity.cpp.i
 
-CMakeFiles/gym.dir/4.gym_activity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gym.dir/4.gym_activity.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\4.gym_activity.cpp" -o CMakeFiles\gym.dir\4.gym_activity.cpp.s
+CMakeFiles/gym.dir/structs/4.gym_activity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gym.dir/structs/4.gym_activity.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\structs\4.gym_activity.cpp" -o CMakeFiles\gym.dir\structs\4.gym_activity.cpp.s
 
 # Object files for target gym
 gym_OBJECTS = \
-"CMakeFiles/gym.dir/4.gym_activity.cpp.obj"
+"CMakeFiles/gym.dir/structs/4.gym_activity.cpp.obj"
 
 # External object files for target gym
 gym_EXTERNAL_OBJECTS =
 
-gym.exe: CMakeFiles/gym.dir/4.gym_activity.cpp.obj
+gym.exe: CMakeFiles/gym.dir/structs/4.gym_activity.cpp.obj
 gym.exe: CMakeFiles/gym.dir/build.make
 gym.exe: CMakeFiles/gym.dir/linklibs.rsp
 gym.exe: CMakeFiles/gym.dir/objects1.rsp

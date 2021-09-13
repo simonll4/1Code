@@ -65,27 +65,27 @@ include CMakeFiles/struct_employee.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/struct_employee.dir/flags.make
 
-CMakeFiles/struct_employee.dir/3.empleados.cpp.obj: CMakeFiles/struct_employee.dir/flags.make
-CMakeFiles/struct_employee.dir/3.empleados.cpp.obj: ../3.empleados.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/struct_employee.dir/3.empleados.cpp.obj"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\struct_employee.dir\3.empleados.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\3.empleados.cpp"
+CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.obj: CMakeFiles/struct_employee.dir/flags.make
+CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.obj: ../structs/3.empleados.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\struct_employee.dir\structs\3.empleados.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\structs\3.empleados.cpp"
 
-CMakeFiles/struct_employee.dir/3.empleados.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/struct_employee.dir/3.empleados.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\3.empleados.cpp" > CMakeFiles\struct_employee.dir\3.empleados.cpp.i
+CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\structs\3.empleados.cpp" > CMakeFiles\struct_employee.dir\structs\3.empleados.cpp.i
 
-CMakeFiles/struct_employee.dir/3.empleados.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/struct_employee.dir/3.empleados.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\3.empleados.cpp" -o CMakeFiles\struct_employee.dir\3.empleados.cpp.s
+CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\structs\3.empleados.cpp" -o CMakeFiles\struct_employee.dir\structs\3.empleados.cpp.s
 
 # Object files for target struct_employee
 struct_employee_OBJECTS = \
-"CMakeFiles/struct_employee.dir/3.empleados.cpp.obj"
+"CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.obj"
 
 # External object files for target struct_employee
 struct_employee_EXTERNAL_OBJECTS =
 
-struct_employee.exe: CMakeFiles/struct_employee.dir/3.empleados.cpp.obj
+struct_employee.exe: CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.obj
 struct_employee.exe: CMakeFiles/struct_employee.dir/build.make
 struct_employee.exe: CMakeFiles/struct_employee.dir/linklibs.rsp
 struct_employee.exe: CMakeFiles/struct_employee.dir/objects1.rsp

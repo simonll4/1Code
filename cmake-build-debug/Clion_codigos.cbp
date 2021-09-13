@@ -290,21 +290,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/1.main.cpp">
-			<Option target="books"/>
-		</Unit>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/2.pet.cpp">
-			<Option target="pets"/>
-		</Unit>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/2.pet_class.cpp">
-			<Option target="pets"/>
-		</Unit>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/3.empleados.cpp">
-			<Option target="struct_employee"/>
-		</Unit>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/4.gym_activity.cpp">
-			<Option target="gym"/>
-		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/archivos/dateProduct.cpp">
 			<Option target="file"/>
 		</Unit>
@@ -313,6 +298,21 @@
 		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/class/1.book.cpp">
 			<Option target="books"/>
+		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/class/1.main.cpp">
+			<Option target="books"/>
+		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/class/2.pet.cpp">
+			<Option target="pets"/>
+		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/class/2.pet_class.cpp">
+			<Option target="pets"/>
+		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/structs/3.empleados.cpp">
+			<Option target="struct_employee"/>
+		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/structs/4.gym_activity.cpp">
+			<Option target="gym"/>
 		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

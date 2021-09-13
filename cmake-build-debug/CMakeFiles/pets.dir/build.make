@@ -65,42 +65,42 @@ include CMakeFiles/pets.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pets.dir/flags.make
 
-CMakeFiles/pets.dir/2.pet.cpp.obj: CMakeFiles/pets.dir/flags.make
-CMakeFiles/pets.dir/2.pet.cpp.obj: ../2.pet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pets.dir/2.pet.cpp.obj"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pets.dir\2.pet.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\2.pet.cpp"
+CMakeFiles/pets.dir/class/2.pet.cpp.obj: CMakeFiles/pets.dir/flags.make
+CMakeFiles/pets.dir/class/2.pet.cpp.obj: ../class/2.pet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pets.dir/class/2.pet.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pets.dir\class\2.pet.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\2.pet.cpp"
 
-CMakeFiles/pets.dir/2.pet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pets.dir/2.pet.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\2.pet.cpp" > CMakeFiles\pets.dir\2.pet.cpp.i
+CMakeFiles/pets.dir/class/2.pet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pets.dir/class/2.pet.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\2.pet.cpp" > CMakeFiles\pets.dir\class\2.pet.cpp.i
 
-CMakeFiles/pets.dir/2.pet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pets.dir/2.pet.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\2.pet.cpp" -o CMakeFiles\pets.dir\2.pet.cpp.s
+CMakeFiles/pets.dir/class/2.pet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pets.dir/class/2.pet.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\2.pet.cpp" -o CMakeFiles\pets.dir\class\2.pet.cpp.s
 
-CMakeFiles/pets.dir/2.pet_class.cpp.obj: CMakeFiles/pets.dir/flags.make
-CMakeFiles/pets.dir/2.pet_class.cpp.obj: ../2.pet_class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pets.dir/2.pet_class.cpp.obj"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pets.dir\2.pet_class.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\2.pet_class.cpp"
+CMakeFiles/pets.dir/class/2.pet_class.cpp.obj: CMakeFiles/pets.dir/flags.make
+CMakeFiles/pets.dir/class/2.pet_class.cpp.obj: ../class/2.pet_class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pets.dir/class/2.pet_class.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pets.dir\class\2.pet_class.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\2.pet_class.cpp"
 
-CMakeFiles/pets.dir/2.pet_class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pets.dir/2.pet_class.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\2.pet_class.cpp" > CMakeFiles\pets.dir\2.pet_class.cpp.i
+CMakeFiles/pets.dir/class/2.pet_class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pets.dir/class/2.pet_class.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\2.pet_class.cpp" > CMakeFiles\pets.dir\class\2.pet_class.cpp.i
 
-CMakeFiles/pets.dir/2.pet_class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pets.dir/2.pet_class.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\2.pet_class.cpp" -o CMakeFiles\pets.dir\2.pet_class.cpp.s
+CMakeFiles/pets.dir/class/2.pet_class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pets.dir/class/2.pet_class.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\2.pet_class.cpp" -o CMakeFiles\pets.dir\class\2.pet_class.cpp.s
 
 # Object files for target pets
 pets_OBJECTS = \
-"CMakeFiles/pets.dir/2.pet.cpp.obj" \
-"CMakeFiles/pets.dir/2.pet_class.cpp.obj"
+"CMakeFiles/pets.dir/class/2.pet.cpp.obj" \
+"CMakeFiles/pets.dir/class/2.pet_class.cpp.obj"
 
 # External object files for target pets
 pets_EXTERNAL_OBJECTS =
 
-pets.exe: CMakeFiles/pets.dir/2.pet.cpp.obj
-pets.exe: CMakeFiles/pets.dir/2.pet_class.cpp.obj
+pets.exe: CMakeFiles/pets.dir/class/2.pet.cpp.obj
+pets.exe: CMakeFiles/pets.dir/class/2.pet_class.cpp.obj
 pets.exe: CMakeFiles/pets.dir/build.make
 pets.exe: CMakeFiles/pets.dir/linklibs.rsp
 pets.exe: CMakeFiles/pets.dir/objects1.rsp

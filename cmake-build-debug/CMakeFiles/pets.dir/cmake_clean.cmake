@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pets.dir/2.pet.cpp.obj"
-  "CMakeFiles/pets.dir/2.pet_class.cpp.obj"
+  "CMakeFiles/pets.dir/class/2.pet.cpp.obj"
+  "CMakeFiles/pets.dir/class/2.pet_class.cpp.obj"
   "libpets.dll.a"
   "pets.exe"
   "pets.exe.manifest"

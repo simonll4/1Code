@@ -65,18 +65,18 @@ include CMakeFiles/books.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/books.dir/flags.make
 
-CMakeFiles/books.dir/1.main.cpp.obj: CMakeFiles/books.dir/flags.make
-CMakeFiles/books.dir/1.main.cpp.obj: ../1.main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/books.dir/1.main.cpp.obj"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\books.dir\1.main.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\1.main.cpp"
+CMakeFiles/books.dir/class/1.main.cpp.obj: CMakeFiles/books.dir/flags.make
+CMakeFiles/books.dir/class/1.main.cpp.obj: ../class/1.main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/books.dir/class/1.main.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\books.dir\class\1.main.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\1.main.cpp"
 
-CMakeFiles/books.dir/1.main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/books.dir/1.main.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\1.main.cpp" > CMakeFiles\books.dir\1.main.cpp.i
+CMakeFiles/books.dir/class/1.main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/books.dir/class/1.main.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\1.main.cpp" > CMakeFiles\books.dir\class\1.main.cpp.i
 
-CMakeFiles/books.dir/1.main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/books.dir/1.main.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\1.main.cpp" -o CMakeFiles\books.dir\1.main.cpp.s
+CMakeFiles/books.dir/class/1.main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/books.dir/class/1.main.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\class\1.main.cpp" -o CMakeFiles\books.dir\class\1.main.cpp.s
 
 CMakeFiles/books.dir/class/1.book.cpp.obj: CMakeFiles/books.dir/flags.make
 CMakeFiles/books.dir/class/1.book.cpp.obj: ../class/1.book.cpp
@@ -93,13 +93,13 @@ CMakeFiles/books.dir/class/1.book.cpp.s: cmake_force
 
 # Object files for target books
 books_OBJECTS = \
-"CMakeFiles/books.dir/1.main.cpp.obj" \
+"CMakeFiles/books.dir/class/1.main.cpp.obj" \
 "CMakeFiles/books.dir/class/1.book.cpp.obj"
 
 # External object files for target books
 books_EXTERNAL_OBJECTS =
 
-books.exe: CMakeFiles/books.dir/1.main.cpp.obj
+books.exe: CMakeFiles/books.dir/class/1.main.cpp.obj
 books.exe: CMakeFiles/books.dir/class/1.book.cpp.obj
 books.exe: CMakeFiles/books.dir/build.make
 books.exe: CMakeFiles/books.dir/linklibs.rsp

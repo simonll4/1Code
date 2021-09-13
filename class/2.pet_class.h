@@ -23,12 +23,11 @@ public:
     void set_race(string);
     string get_race();
     void set_pet_name(string);
-    string set_pet_name();
+    string get_pet_name();
     void set_responsable_person(string);
     string get_responsable_person();
     void set_age(int);
     int get_age();
-    string to_string(void);
 
 };
 

@@ -193,126 +193,6 @@ file1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file1.dir\build.make CMakeFiles/file1.dir/build
 .PHONY : file1/fast
 
-1.main.obj: 1.main.cpp.obj
-.PHONY : 1.main.obj
-
-# target to build an object file
-1.main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/1.main.cpp.obj
-.PHONY : 1.main.cpp.obj
-
-1.main.i: 1.main.cpp.i
-.PHONY : 1.main.i
-
-# target to preprocess a source file
-1.main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/1.main.cpp.i
-.PHONY : 1.main.cpp.i
-
-1.main.s: 1.main.cpp.s
-.PHONY : 1.main.s
-
-# target to generate assembly for a file
-1.main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/1.main.cpp.s
-.PHONY : 1.main.cpp.s
-
-2.pet.obj: 2.pet.cpp.obj
-.PHONY : 2.pet.obj
-
-# target to build an object file
-2.pet.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/2.pet.cpp.obj
-.PHONY : 2.pet.cpp.obj
-
-2.pet.i: 2.pet.cpp.i
-.PHONY : 2.pet.i
-
-# target to preprocess a source file
-2.pet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/2.pet.cpp.i
-.PHONY : 2.pet.cpp.i
-
-2.pet.s: 2.pet.cpp.s
-.PHONY : 2.pet.s
-
-# target to generate assembly for a file
-2.pet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/2.pet.cpp.s
-.PHONY : 2.pet.cpp.s
-
-2.pet_class.obj: 2.pet_class.cpp.obj
-.PHONY : 2.pet_class.obj
-
-# target to build an object file
-2.pet_class.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/2.pet_class.cpp.obj
-.PHONY : 2.pet_class.cpp.obj
-
-2.pet_class.i: 2.pet_class.cpp.i
-.PHONY : 2.pet_class.i
-
-# target to preprocess a source file
-2.pet_class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/2.pet_class.cpp.i
-.PHONY : 2.pet_class.cpp.i
-
-2.pet_class.s: 2.pet_class.cpp.s
-.PHONY : 2.pet_class.s
-
-# target to generate assembly for a file
-2.pet_class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/2.pet_class.cpp.s
-.PHONY : 2.pet_class.cpp.s
-
-3.empleados.obj: 3.empleados.cpp.obj
-.PHONY : 3.empleados.obj
-
-# target to build an object file
-3.empleados.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/3.empleados.cpp.obj
-.PHONY : 3.empleados.cpp.obj
-
-3.empleados.i: 3.empleados.cpp.i
-.PHONY : 3.empleados.i
-
-# target to preprocess a source file
-3.empleados.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/3.empleados.cpp.i
-.PHONY : 3.empleados.cpp.i
-
-3.empleados.s: 3.empleados.cpp.s
-.PHONY : 3.empleados.s
-
-# target to generate assembly for a file
-3.empleados.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/3.empleados.cpp.s
-.PHONY : 3.empleados.cpp.s
-
-4.gym_activity.obj: 4.gym_activity.cpp.obj
-.PHONY : 4.gym_activity.obj
-
-# target to build an object file
-4.gym_activity.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/4.gym_activity.cpp.obj
-.PHONY : 4.gym_activity.cpp.obj
-
-4.gym_activity.i: 4.gym_activity.cpp.i
-.PHONY : 4.gym_activity.i
-
-# target to preprocess a source file
-4.gym_activity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/4.gym_activity.cpp.i
-.PHONY : 4.gym_activity.cpp.i
-
-4.gym_activity.s: 4.gym_activity.cpp.s
-.PHONY : 4.gym_activity.s
-
-# target to generate assembly for a file
-4.gym_activity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/4.gym_activity.cpp.s
-.PHONY : 4.gym_activity.cpp.s
-
 archivos/dateProduct.obj: archivos/dateProduct.cpp.obj
 .PHONY : archivos/dateProduct.obj
 
@@ -385,6 +265,126 @@ class/1.book.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/class/1.book.cpp.s
 .PHONY : class/1.book.cpp.s
 
+class/1.main.obj: class/1.main.cpp.obj
+.PHONY : class/1.main.obj
+
+# target to build an object file
+class/1.main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/class/1.main.cpp.obj
+.PHONY : class/1.main.cpp.obj
+
+class/1.main.i: class/1.main.cpp.i
+.PHONY : class/1.main.i
+
+# target to preprocess a source file
+class/1.main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/class/1.main.cpp.i
+.PHONY : class/1.main.cpp.i
+
+class/1.main.s: class/1.main.cpp.s
+.PHONY : class/1.main.s
+
+# target to generate assembly for a file
+class/1.main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/class/1.main.cpp.s
+.PHONY : class/1.main.cpp.s
+
+class/2.pet.obj: class/2.pet.cpp.obj
+.PHONY : class/2.pet.obj
+
+# target to build an object file
+class/2.pet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet.cpp.obj
+.PHONY : class/2.pet.cpp.obj
+
+class/2.pet.i: class/2.pet.cpp.i
+.PHONY : class/2.pet.i
+
+# target to preprocess a source file
+class/2.pet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet.cpp.i
+.PHONY : class/2.pet.cpp.i
+
+class/2.pet.s: class/2.pet.cpp.s
+.PHONY : class/2.pet.s
+
+# target to generate assembly for a file
+class/2.pet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet.cpp.s
+.PHONY : class/2.pet.cpp.s
+
+class/2.pet_class.obj: class/2.pet_class.cpp.obj
+.PHONY : class/2.pet_class.obj
+
+# target to build an object file
+class/2.pet_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet_class.cpp.obj
+.PHONY : class/2.pet_class.cpp.obj
+
+class/2.pet_class.i: class/2.pet_class.cpp.i
+.PHONY : class/2.pet_class.i
+
+# target to preprocess a source file
+class/2.pet_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet_class.cpp.i
+.PHONY : class/2.pet_class.cpp.i
+
+class/2.pet_class.s: class/2.pet_class.cpp.s
+.PHONY : class/2.pet_class.s
+
+# target to generate assembly for a file
+class/2.pet_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet_class.cpp.s
+.PHONY : class/2.pet_class.cpp.s
+
+structs/3.empleados.obj: structs/3.empleados.cpp.obj
+.PHONY : structs/3.empleados.obj
+
+# target to build an object file
+structs/3.empleados.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.obj
+.PHONY : structs/3.empleados.cpp.obj
+
+structs/3.empleados.i: structs/3.empleados.cpp.i
+.PHONY : structs/3.empleados.i
+
+# target to preprocess a source file
+structs/3.empleados.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.i
+.PHONY : structs/3.empleados.cpp.i
+
+structs/3.empleados.s: structs/3.empleados.cpp.s
+.PHONY : structs/3.empleados.s
+
+# target to generate assembly for a file
+structs/3.empleados.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.s
+.PHONY : structs/3.empleados.cpp.s
+
+structs/4.gym_activity.obj: structs/4.gym_activity.cpp.obj
+.PHONY : structs/4.gym_activity.obj
+
+# target to build an object file
+structs/4.gym_activity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/structs/4.gym_activity.cpp.obj
+.PHONY : structs/4.gym_activity.cpp.obj
+
+structs/4.gym_activity.i: structs/4.gym_activity.cpp.i
+.PHONY : structs/4.gym_activity.i
+
+# target to preprocess a source file
+structs/4.gym_activity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/structs/4.gym_activity.cpp.i
+.PHONY : structs/4.gym_activity.cpp.i
+
+structs/4.gym_activity.s: structs/4.gym_activity.cpp.s
+.PHONY : structs/4.gym_activity.s
+
+# target to generate assembly for a file
+structs/4.gym_activity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/structs/4.gym_activity.cpp.s
+.PHONY : structs/4.gym_activity.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -399,21 +399,6 @@ help:
 	@echo ... gym
 	@echo ... pets
 	@echo ... struct_employee
-	@echo ... 1.main.obj
-	@echo ... 1.main.i
-	@echo ... 1.main.s
-	@echo ... 2.pet.obj
-	@echo ... 2.pet.i
-	@echo ... 2.pet.s
-	@echo ... 2.pet_class.obj
-	@echo ... 2.pet_class.i
-	@echo ... 2.pet_class.s
-	@echo ... 3.empleados.obj
-	@echo ... 3.empleados.i
-	@echo ... 3.empleados.s
-	@echo ... 4.gym_activity.obj
-	@echo ... 4.gym_activity.i
-	@echo ... 4.gym_activity.s
 	@echo ... archivos/dateProduct.obj
 	@echo ... archivos/dateProduct.i
 	@echo ... archivos/dateProduct.s
@@ -423,6 +408,21 @@ help:
 	@echo ... class/1.book.obj
 	@echo ... class/1.book.i
 	@echo ... class/1.book.s
+	@echo ... class/1.main.obj
+	@echo ... class/1.main.i
+	@echo ... class/1.main.s
+	@echo ... class/2.pet.obj
+	@echo ... class/2.pet.i
+	@echo ... class/2.pet.s
+	@echo ... class/2.pet_class.obj
+	@echo ... class/2.pet_class.i
+	@echo ... class/2.pet_class.s
+	@echo ... structs/3.empleados.obj
+	@echo ... structs/3.empleados.i
+	@echo ... structs/3.empleados.s
+	@echo ... structs/4.gym_activity.obj
+	@echo ... structs/4.gym_activity.i
+	@echo ... structs/4.gym_activity.s
 .PHONY : help
 
 

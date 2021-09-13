@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/struct_employee.dir/3.empleados.cpp.obj"
+  "CMakeFiles/struct_employee.dir/structs/3.empleados.cpp.obj"
   "libstruct_employee.dll.a"
   "struct_employee.exe"
   "struct_employee.exe.manifest"

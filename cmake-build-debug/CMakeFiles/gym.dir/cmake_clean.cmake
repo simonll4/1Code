@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gym.dir/4.gym_activity.cpp.obj"
+  "CMakeFiles/gym.dir/structs/4.gym_activity.cpp.obj"
   "gym.exe"
   "gym.exe.manifest"
   "gym.pdb"
