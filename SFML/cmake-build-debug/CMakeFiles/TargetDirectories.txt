@@ -1,0 +1,3 @@
+G:/Mi unidad/segundo_semestre/info 2/codigos1/SFML/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/SFML/cmake-build-debug/CMakeFiles/SFML.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/SFML/cmake-build-debug/CMakeFiles/edit_cache.dir

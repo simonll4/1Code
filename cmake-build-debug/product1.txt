@@ -1,0 +1,14 @@
+Producto 1
+Nombre: sadsa
+Marca: asdasd
+Precio unitario: 444
+Fecha de elaboracion: 5454
+Tamanio: 564
+
+Producto 2
+Nombre: dsfsdf
+Marca: fsdf
+Precio unitario: 546
+Fecha de elaboracion: 5646
+Tamanio: 5646
+

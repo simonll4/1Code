@@ -1,0 +1,5 @@
+Nombre: simon
+Marca: coca
+Precio unitario: 45
+Fcha de elaboracion: 10/78/95
+Tamanio: 45

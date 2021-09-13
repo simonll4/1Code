@@ -1,0 +1,14 @@
+Producto 1
+Nombre: gaseosa
+Marca: cocacola
+Precio unitario: 40
+Fecha de elaboracion: 07/08/2001
+Tamanio: 500
+
+Producto 2
+Nombre: ml
+Marca: peosi
+Precio unitario: 45
+Fecha de elaboracion: 2255/00/22
+Tamanio: 455
+
