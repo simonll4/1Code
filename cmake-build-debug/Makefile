@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pointer1
+
+# Build rule for target.
+pointer1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer1
+.PHONY : pointer1
+
+# fast build rule for target.
+pointer1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer1.dir\build.make CMakeFiles/pointer1.dir/build
+.PHONY : pointer1/fast
+
+#=============================================================================
 # Target rules for targets named struct_employee
 
 # Build rule for target.
@@ -155,6 +168,19 @@ pets/fast:
 .PHONY : pets/fast
 
 #=============================================================================
+# Target rules for targets named pointer2
+
+# Build rule for target.
+pointer2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer2
+.PHONY : pointer2
+
+# fast build rule for target.
+pointer2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer2.dir\build.make CMakeFiles/pointer2.dir/build
+.PHONY : pointer2/fast
+
+#=============================================================================
 # Target rules for targets named gym
 
 # Build rule for target.
@@ -192,6 +218,186 @@ file1: cmake_check_build_system
 file1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file1.dir\build.make CMakeFiles/file1.dir/build
 .PHONY : file1/fast
+
+#=============================================================================
+# Target rules for targets named pointer3
+
+# Build rule for target.
+pointer3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer3
+.PHONY : pointer3
+
+# fast build rule for target.
+pointer3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer3.dir\build.make CMakeFiles/pointer3.dir/build
+.PHONY : pointer3/fast
+
+#=============================================================================
+# Target rules for targets named pointer4
+
+# Build rule for target.
+pointer4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer4
+.PHONY : pointer4
+
+# fast build rule for target.
+pointer4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer4.dir\build.make CMakeFiles/pointer4.dir/build
+.PHONY : pointer4/fast
+
+#=============================================================================
+# Target rules for targets named pointer5
+
+# Build rule for target.
+pointer5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer5
+.PHONY : pointer5
+
+# fast build rule for target.
+pointer5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer5.dir\build.make CMakeFiles/pointer5.dir/build
+.PHONY : pointer5/fast
+
+#=============================================================================
+# Target rules for targets named pointer6
+
+# Build rule for target.
+pointer6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer6
+.PHONY : pointer6
+
+# fast build rule for target.
+pointer6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer6.dir\build.make CMakeFiles/pointer6.dir/build
+.PHONY : pointer6/fast
+
+#=============================================================================
+# Target rules for targets named exercise1
+
+# Build rule for target.
+exercise1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise1
+.PHONY : exercise1
+
+# fast build rule for target.
+exercise1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise1.dir\build.make CMakeFiles/exercise1.dir/build
+.PHONY : exercise1/fast
+
+#=============================================================================
+# Target rules for targets named exercise2
+
+# Build rule for target.
+exercise2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise2
+.PHONY : exercise2
+
+# fast build rule for target.
+exercise2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/build
+.PHONY : exercise2/fast
+
+#=============================================================================
+# Target rules for targets named exercise32
+
+# Build rule for target.
+exercise32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise32
+.PHONY : exercise32
+
+# fast build rule for target.
+exercise32/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/build
+.PHONY : exercise32/fast
+
+#=============================================================================
+# Target rules for targets named integrador1
+
+# Build rule for target.
+integrador1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 integrador1
+.PHONY : integrador1
+
+# fast build rule for target.
+integrador1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador1.dir\build.make CMakeFiles/integrador1.dir/build
+.PHONY : integrador1/fast
+
+#=============================================================================
+# Target rules for targets named integrador2
+
+# Build rule for target.
+integrador2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 integrador2
+.PHONY : integrador2
+
+# fast build rule for target.
+integrador2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador2.dir\build.make CMakeFiles/integrador2.dir/build
+.PHONY : integrador2/fast
+
+#=============================================================================
+# Target rules for targets named integrador3
+
+# Build rule for target.
+integrador3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 integrador3
+.PHONY : integrador3
+
+# fast build rule for target.
+integrador3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/build
+.PHONY : integrador3/fast
+
+#=============================================================================
+# Target rules for targets named abc
+
+# Build rule for target.
+abc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 abc
+.PHONY : abc
+
+# fast build rule for target.
+abc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abc.dir\build.make CMakeFiles/abc.dir/build
+.PHONY : abc/fast
+
+#=============================================================================
+# Target rules for targets named parcial1
+
+# Build rule for target.
+parcial1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 parcial1
+.PHONY : parcial1
+
+# fast build rule for target.
+parcial1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/build
+.PHONY : parcial1/fast
+
+abecedarioASCCI.obj: abecedarioASCCI.cpp.obj
+.PHONY : abecedarioASCCI.obj
+
+# target to build an object file
+abecedarioASCCI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abc.dir\build.make CMakeFiles/abc.dir/abecedarioASCCI.cpp.obj
+.PHONY : abecedarioASCCI.cpp.obj
+
+abecedarioASCCI.i: abecedarioASCCI.cpp.i
+.PHONY : abecedarioASCCI.i
+
+# target to preprocess a source file
+abecedarioASCCI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abc.dir\build.make CMakeFiles/abc.dir/abecedarioASCCI.cpp.i
+.PHONY : abecedarioASCCI.cpp.i
+
+abecedarioASCCI.s: abecedarioASCCI.cpp.s
+.PHONY : abecedarioASCCI.s
+
+# target to generate assembly for a file
+abecedarioASCCI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abc.dir\build.make CMakeFiles/abc.dir/abecedarioASCCI.cpp.s
+.PHONY : abecedarioASCCI.cpp.s
 
 archivos/dateProduct.obj: archivos/dateProduct.cpp.obj
 .PHONY : archivos/dateProduct.obj
@@ -337,6 +543,318 @@ class/2.pet_class.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet_class.cpp.s
 .PHONY : class/2.pet_class.cpp.s
 
+dinamica/1.exercise.obj: dinamica/1.exercise.cpp.obj
+.PHONY : dinamica/1.exercise.obj
+
+# target to build an object file
+dinamica/1.exercise.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise1.dir\build.make CMakeFiles/exercise1.dir/dinamica/1.exercise.cpp.obj
+.PHONY : dinamica/1.exercise.cpp.obj
+
+dinamica/1.exercise.i: dinamica/1.exercise.cpp.i
+.PHONY : dinamica/1.exercise.i
+
+# target to preprocess a source file
+dinamica/1.exercise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise1.dir\build.make CMakeFiles/exercise1.dir/dinamica/1.exercise.cpp.i
+.PHONY : dinamica/1.exercise.cpp.i
+
+dinamica/1.exercise.s: dinamica/1.exercise.cpp.s
+.PHONY : dinamica/1.exercise.s
+
+# target to generate assembly for a file
+dinamica/1.exercise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise1.dir\build.make CMakeFiles/exercise1.dir/dinamica/1.exercise.cpp.s
+.PHONY : dinamica/1.exercise.cpp.s
+
+dinamica/2.exercise.obj: dinamica/2.exercise.cpp.obj
+.PHONY : dinamica/2.exercise.obj
+
+# target to build an object file
+dinamica/2.exercise.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/dinamica/2.exercise.cpp.obj
+.PHONY : dinamica/2.exercise.cpp.obj
+
+dinamica/2.exercise.i: dinamica/2.exercise.cpp.i
+.PHONY : dinamica/2.exercise.i
+
+# target to preprocess a source file
+dinamica/2.exercise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/dinamica/2.exercise.cpp.i
+.PHONY : dinamica/2.exercise.cpp.i
+
+dinamica/2.exercise.s: dinamica/2.exercise.cpp.s
+.PHONY : dinamica/2.exercise.s
+
+# target to generate assembly for a file
+dinamica/2.exercise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/dinamica/2.exercise.cpp.s
+.PHONY : dinamica/2.exercise.cpp.s
+
+dinamica/3.1.exercise.obj: dinamica/3.1.exercise.cpp.obj
+.PHONY : dinamica/3.1.exercise.obj
+
+# target to build an object file
+dinamica/3.1.exercise.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/dinamica/3.1.exercise.cpp.obj
+.PHONY : dinamica/3.1.exercise.cpp.obj
+
+dinamica/3.1.exercise.i: dinamica/3.1.exercise.cpp.i
+.PHONY : dinamica/3.1.exercise.i
+
+# target to preprocess a source file
+dinamica/3.1.exercise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/dinamica/3.1.exercise.cpp.i
+.PHONY : dinamica/3.1.exercise.cpp.i
+
+dinamica/3.1.exercise.s: dinamica/3.1.exercise.cpp.s
+.PHONY : dinamica/3.1.exercise.s
+
+# target to generate assembly for a file
+dinamica/3.1.exercise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/dinamica/3.1.exercise.cpp.s
+.PHONY : dinamica/3.1.exercise.cpp.s
+
+integradoresP1/1.MdinamicaRecursividad.obj: integradoresP1/1.MdinamicaRecursividad.cpp.obj
+.PHONY : integradoresP1/1.MdinamicaRecursividad.obj
+
+# target to build an object file
+integradoresP1/1.MdinamicaRecursividad.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador1.dir\build.make CMakeFiles/integrador1.dir/integradoresP1/1.MdinamicaRecursividad.cpp.obj
+.PHONY : integradoresP1/1.MdinamicaRecursividad.cpp.obj
+
+integradoresP1/1.MdinamicaRecursividad.i: integradoresP1/1.MdinamicaRecursividad.cpp.i
+.PHONY : integradoresP1/1.MdinamicaRecursividad.i
+
+# target to preprocess a source file
+integradoresP1/1.MdinamicaRecursividad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador1.dir\build.make CMakeFiles/integrador1.dir/integradoresP1/1.MdinamicaRecursividad.cpp.i
+.PHONY : integradoresP1/1.MdinamicaRecursividad.cpp.i
+
+integradoresP1/1.MdinamicaRecursividad.s: integradoresP1/1.MdinamicaRecursividad.cpp.s
+.PHONY : integradoresP1/1.MdinamicaRecursividad.s
+
+# target to generate assembly for a file
+integradoresP1/1.MdinamicaRecursividad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador1.dir\build.make CMakeFiles/integrador1.dir/integradoresP1/1.MdinamicaRecursividad.cpp.s
+.PHONY : integradoresP1/1.MdinamicaRecursividad.cpp.s
+
+integradoresP1/2.integrador.obj: integradoresP1/2.integrador.cpp.obj
+.PHONY : integradoresP1/2.integrador.obj
+
+# target to build an object file
+integradoresP1/2.integrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador2.dir\build.make CMakeFiles/integrador2.dir/integradoresP1/2.integrador.cpp.obj
+.PHONY : integradoresP1/2.integrador.cpp.obj
+
+integradoresP1/2.integrador.i: integradoresP1/2.integrador.cpp.i
+.PHONY : integradoresP1/2.integrador.i
+
+# target to preprocess a source file
+integradoresP1/2.integrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador2.dir\build.make CMakeFiles/integrador2.dir/integradoresP1/2.integrador.cpp.i
+.PHONY : integradoresP1/2.integrador.cpp.i
+
+integradoresP1/2.integrador.s: integradoresP1/2.integrador.cpp.s
+.PHONY : integradoresP1/2.integrador.s
+
+# target to generate assembly for a file
+integradoresP1/2.integrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador2.dir\build.make CMakeFiles/integrador2.dir/integradoresP1/2.integrador.cpp.s
+.PHONY : integradoresP1/2.integrador.cpp.s
+
+integradoresP1/3.integrador.obj: integradoresP1/3.integrador.cpp.obj
+.PHONY : integradoresP1/3.integrador.obj
+
+# target to build an object file
+integradoresP1/3.integrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/integradoresP1/3.integrador.cpp.obj
+.PHONY : integradoresP1/3.integrador.cpp.obj
+
+integradoresP1/3.integrador.i: integradoresP1/3.integrador.cpp.i
+.PHONY : integradoresP1/3.integrador.i
+
+# target to preprocess a source file
+integradoresP1/3.integrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/integradoresP1/3.integrador.cpp.i
+.PHONY : integradoresP1/3.integrador.cpp.i
+
+integradoresP1/3.integrador.s: integradoresP1/3.integrador.cpp.s
+.PHONY : integradoresP1/3.integrador.s
+
+# target to generate assembly for a file
+integradoresP1/3.integrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/integradoresP1/3.integrador.cpp.s
+.PHONY : integradoresP1/3.integrador.cpp.s
+
+integradoresP1/4.parcial.obj: integradoresP1/4.parcial.cpp.obj
+.PHONY : integradoresP1/4.parcial.obj
+
+# target to build an object file
+integradoresP1/4.parcial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/integradoresP1/4.parcial.cpp.obj
+.PHONY : integradoresP1/4.parcial.cpp.obj
+
+integradoresP1/4.parcial.i: integradoresP1/4.parcial.cpp.i
+.PHONY : integradoresP1/4.parcial.i
+
+# target to preprocess a source file
+integradoresP1/4.parcial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/integradoresP1/4.parcial.cpp.i
+.PHONY : integradoresP1/4.parcial.cpp.i
+
+integradoresP1/4.parcial.s: integradoresP1/4.parcial.cpp.s
+.PHONY : integradoresP1/4.parcial.s
+
+# target to generate assembly for a file
+integradoresP1/4.parcial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/integradoresP1/4.parcial.cpp.s
+.PHONY : integradoresP1/4.parcial.cpp.s
+
+punteros/1.main.obj: punteros/1.main.cpp.obj
+.PHONY : punteros/1.main.obj
+
+# target to build an object file
+punteros/1.main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer1.dir\build.make CMakeFiles/pointer1.dir/punteros/1.main.cpp.obj
+.PHONY : punteros/1.main.cpp.obj
+
+punteros/1.main.i: punteros/1.main.cpp.i
+.PHONY : punteros/1.main.i
+
+# target to preprocess a source file
+punteros/1.main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer1.dir\build.make CMakeFiles/pointer1.dir/punteros/1.main.cpp.i
+.PHONY : punteros/1.main.cpp.i
+
+punteros/1.main.s: punteros/1.main.cpp.s
+.PHONY : punteros/1.main.s
+
+# target to generate assembly for a file
+punteros/1.main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer1.dir\build.make CMakeFiles/pointer1.dir/punteros/1.main.cpp.s
+.PHONY : punteros/1.main.cpp.s
+
+punteros/2.main.obj: punteros/2.main.cpp.obj
+.PHONY : punteros/2.main.obj
+
+# target to build an object file
+punteros/2.main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer2.dir\build.make CMakeFiles/pointer2.dir/punteros/2.main.cpp.obj
+.PHONY : punteros/2.main.cpp.obj
+
+punteros/2.main.i: punteros/2.main.cpp.i
+.PHONY : punteros/2.main.i
+
+# target to preprocess a source file
+punteros/2.main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer2.dir\build.make CMakeFiles/pointer2.dir/punteros/2.main.cpp.i
+.PHONY : punteros/2.main.cpp.i
+
+punteros/2.main.s: punteros/2.main.cpp.s
+.PHONY : punteros/2.main.s
+
+# target to generate assembly for a file
+punteros/2.main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer2.dir\build.make CMakeFiles/pointer2.dir/punteros/2.main.cpp.s
+.PHONY : punteros/2.main.cpp.s
+
+punteros/3.main.obj: punteros/3.main.cpp.obj
+.PHONY : punteros/3.main.obj
+
+# target to build an object file
+punteros/3.main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer3.dir\build.make CMakeFiles/pointer3.dir/punteros/3.main.cpp.obj
+.PHONY : punteros/3.main.cpp.obj
+
+punteros/3.main.i: punteros/3.main.cpp.i
+.PHONY : punteros/3.main.i
+
+# target to preprocess a source file
+punteros/3.main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer3.dir\build.make CMakeFiles/pointer3.dir/punteros/3.main.cpp.i
+.PHONY : punteros/3.main.cpp.i
+
+punteros/3.main.s: punteros/3.main.cpp.s
+.PHONY : punteros/3.main.s
+
+# target to generate assembly for a file
+punteros/3.main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer3.dir\build.make CMakeFiles/pointer3.dir/punteros/3.main.cpp.s
+.PHONY : punteros/3.main.cpp.s
+
+punteros/4.main.obj: punteros/4.main.cpp.obj
+.PHONY : punteros/4.main.obj
+
+# target to build an object file
+punteros/4.main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer4.dir\build.make CMakeFiles/pointer4.dir/punteros/4.main.cpp.obj
+.PHONY : punteros/4.main.cpp.obj
+
+punteros/4.main.i: punteros/4.main.cpp.i
+.PHONY : punteros/4.main.i
+
+# target to preprocess a source file
+punteros/4.main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer4.dir\build.make CMakeFiles/pointer4.dir/punteros/4.main.cpp.i
+.PHONY : punteros/4.main.cpp.i
+
+punteros/4.main.s: punteros/4.main.cpp.s
+.PHONY : punteros/4.main.s
+
+# target to generate assembly for a file
+punteros/4.main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer4.dir\build.make CMakeFiles/pointer4.dir/punteros/4.main.cpp.s
+.PHONY : punteros/4.main.cpp.s
+
+punteros/5.main.obj: punteros/5.main.cpp.obj
+.PHONY : punteros/5.main.obj
+
+# target to build an object file
+punteros/5.main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer5.dir\build.make CMakeFiles/pointer5.dir/punteros/5.main.cpp.obj
+.PHONY : punteros/5.main.cpp.obj
+
+punteros/5.main.i: punteros/5.main.cpp.i
+.PHONY : punteros/5.main.i
+
+# target to preprocess a source file
+punteros/5.main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer5.dir\build.make CMakeFiles/pointer5.dir/punteros/5.main.cpp.i
+.PHONY : punteros/5.main.cpp.i
+
+punteros/5.main.s: punteros/5.main.cpp.s
+.PHONY : punteros/5.main.s
+
+# target to generate assembly for a file
+punteros/5.main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer5.dir\build.make CMakeFiles/pointer5.dir/punteros/5.main.cpp.s
+.PHONY : punteros/5.main.cpp.s
+
+punteros/6.main.obj: punteros/6.main.cpp.obj
+.PHONY : punteros/6.main.obj
+
+# target to build an object file
+punteros/6.main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer6.dir\build.make CMakeFiles/pointer6.dir/punteros/6.main.cpp.obj
+.PHONY : punteros/6.main.cpp.obj
+
+punteros/6.main.i: punteros/6.main.cpp.i
+.PHONY : punteros/6.main.i
+
+# target to preprocess a source file
+punteros/6.main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer6.dir\build.make CMakeFiles/pointer6.dir/punteros/6.main.cpp.i
+.PHONY : punteros/6.main.cpp.i
+
+punteros/6.main.s: punteros/6.main.cpp.s
+.PHONY : punteros/6.main.s
+
+# target to generate assembly for a file
+punteros/6.main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer6.dir\build.make CMakeFiles/pointer6.dir/punteros/6.main.cpp.s
+.PHONY : punteros/6.main.cpp.s
+
 structs/3.empleados.obj: structs/3.empleados.cpp.obj
 .PHONY : structs/3.empleados.obj
 
@@ -393,12 +911,29 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... abc
 	@echo ... books
+	@echo ... exercise1
+	@echo ... exercise2
+	@echo ... exercise32
 	@echo ... file
 	@echo ... file1
 	@echo ... gym
+	@echo ... integrador1
+	@echo ... integrador2
+	@echo ... integrador3
+	@echo ... parcial1
 	@echo ... pets
+	@echo ... pointer1
+	@echo ... pointer2
+	@echo ... pointer3
+	@echo ... pointer4
+	@echo ... pointer5
+	@echo ... pointer6
 	@echo ... struct_employee
+	@echo ... abecedarioASCCI.obj
+	@echo ... abecedarioASCCI.i
+	@echo ... abecedarioASCCI.s
 	@echo ... archivos/dateProduct.obj
 	@echo ... archivos/dateProduct.i
 	@echo ... archivos/dateProduct.s
@@ -417,6 +952,45 @@ help:
 	@echo ... class/2.pet_class.obj
 	@echo ... class/2.pet_class.i
 	@echo ... class/2.pet_class.s
+	@echo ... dinamica/1.exercise.obj
+	@echo ... dinamica/1.exercise.i
+	@echo ... dinamica/1.exercise.s
+	@echo ... dinamica/2.exercise.obj
+	@echo ... dinamica/2.exercise.i
+	@echo ... dinamica/2.exercise.s
+	@echo ... dinamica/3.1.exercise.obj
+	@echo ... dinamica/3.1.exercise.i
+	@echo ... dinamica/3.1.exercise.s
+	@echo ... integradoresP1/1.MdinamicaRecursividad.obj
+	@echo ... integradoresP1/1.MdinamicaRecursividad.i
+	@echo ... integradoresP1/1.MdinamicaRecursividad.s
+	@echo ... integradoresP1/2.integrador.obj
+	@echo ... integradoresP1/2.integrador.i
+	@echo ... integradoresP1/2.integrador.s
+	@echo ... integradoresP1/3.integrador.obj
+	@echo ... integradoresP1/3.integrador.i
+	@echo ... integradoresP1/3.integrador.s
+	@echo ... integradoresP1/4.parcial.obj
+	@echo ... integradoresP1/4.parcial.i
+	@echo ... integradoresP1/4.parcial.s
+	@echo ... punteros/1.main.obj
+	@echo ... punteros/1.main.i
+	@echo ... punteros/1.main.s
+	@echo ... punteros/2.main.obj
+	@echo ... punteros/2.main.i
+	@echo ... punteros/2.main.s
+	@echo ... punteros/3.main.obj
+	@echo ... punteros/3.main.i
+	@echo ... punteros/3.main.s
+	@echo ... punteros/4.main.obj
+	@echo ... punteros/4.main.i
+	@echo ... punteros/4.main.s
+	@echo ... punteros/5.main.obj
+	@echo ... punteros/5.main.i
+	@echo ... punteros/5.main.s
+	@echo ... punteros/6.main.obj
+	@echo ... punteros/6.main.i
+	@echo ... punteros/6.main.s
 	@echo ... structs/3.empleados.obj
 	@echo ... structs/3.empleados.i
 	@echo ... structs/3.empleados.s

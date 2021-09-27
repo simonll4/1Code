@@ -1,0 +1,11 @@
+VENTA: 
+Numero: 1
+Fecha: 
+05/08/2021
+
+Total recaudado: 50
+VENTA: 
+Numero: 2
+Fecha: 
+05/08/2021
+Total recaudado: 100

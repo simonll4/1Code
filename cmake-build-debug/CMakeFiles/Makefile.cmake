@@ -51,10 +51,24 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/pointer1.dir/DependInfo.cmake"
   "CMakeFiles/struct_employee.dir/DependInfo.cmake"
   "CMakeFiles/books.dir/DependInfo.cmake"
   "CMakeFiles/pets.dir/DependInfo.cmake"
+  "CMakeFiles/pointer2.dir/DependInfo.cmake"
   "CMakeFiles/gym.dir/DependInfo.cmake"
   "CMakeFiles/file.dir/DependInfo.cmake"
   "CMakeFiles/file1.dir/DependInfo.cmake"
+  "CMakeFiles/pointer3.dir/DependInfo.cmake"
+  "CMakeFiles/pointer4.dir/DependInfo.cmake"
+  "CMakeFiles/pointer5.dir/DependInfo.cmake"
+  "CMakeFiles/pointer6.dir/DependInfo.cmake"
+  "CMakeFiles/exercise1.dir/DependInfo.cmake"
+  "CMakeFiles/exercise2.dir/DependInfo.cmake"
+  "CMakeFiles/exercise32.dir/DependInfo.cmake"
+  "CMakeFiles/integrador1.dir/DependInfo.cmake"
+  "CMakeFiles/integrador2.dir/DependInfo.cmake"
+  "CMakeFiles/integrador3.dir/DependInfo.cmake"
+  "CMakeFiles/abc.dir/DependInfo.cmake"
+  "CMakeFiles/parcial1.dir/DependInfo.cmake"
   )

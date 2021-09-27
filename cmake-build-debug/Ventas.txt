@@ -1,0 +1,16 @@
+VENTA: 
+Numero: 1
+Fecha: 
+08/8/5
+
+Total recaudado: 455
+VENTA: 
+Numero: 2
+Fecha: 
+78/89/89
+Total recaudado: 777
+VENTA: 
+Numero: 3
+Fecha: 
+77/77/77
+Total recaudado: 11111

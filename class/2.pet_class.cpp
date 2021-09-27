@@ -1,11 +1,11 @@
 #include "2.pet_class.h"
 
-Pet_class::Pet_class(){
+Pet_class:: Pet_class(){
 
 }
 void Pet_class::set_animal_type(string animal_type){
 
-    this->animal_type=animal_type;
+    this->animal_type= animal_type;
 }
 string Pet_class::get_animal_type(){
 

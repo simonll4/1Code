@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/punteros/2.main.cpp
+iostream
+-
+string
+-
+

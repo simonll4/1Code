@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP1/1.integrador.cpp
+iostream
+-
+ctime
+-
+

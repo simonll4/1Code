@@ -62,12 +62,26 @@ CMAKE_BINARY_DIR = "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/pointer1.dir/all
 all: CMakeFiles/struct_employee.dir/all
 all: CMakeFiles/books.dir/all
 all: CMakeFiles/pets.dir/all
+all: CMakeFiles/pointer2.dir/all
 all: CMakeFiles/gym.dir/all
 all: CMakeFiles/file.dir/all
 all: CMakeFiles/file1.dir/all
+all: CMakeFiles/pointer3.dir/all
+all: CMakeFiles/pointer4.dir/all
+all: CMakeFiles/pointer5.dir/all
+all: CMakeFiles/pointer6.dir/all
+all: CMakeFiles/exercise1.dir/all
+all: CMakeFiles/exercise2.dir/all
+all: CMakeFiles/exercise32.dir/all
+all: CMakeFiles/integrador1.dir/all
+all: CMakeFiles/integrador2.dir/all
+all: CMakeFiles/integrador3.dir/all
+all: CMakeFiles/abc.dir/all
+all: CMakeFiles/parcial1.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,13 +89,53 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/pointer1.dir/clean
 clean: CMakeFiles/struct_employee.dir/clean
 clean: CMakeFiles/books.dir/clean
 clean: CMakeFiles/pets.dir/clean
+clean: CMakeFiles/pointer2.dir/clean
 clean: CMakeFiles/gym.dir/clean
 clean: CMakeFiles/file.dir/clean
 clean: CMakeFiles/file1.dir/clean
+clean: CMakeFiles/pointer3.dir/clean
+clean: CMakeFiles/pointer4.dir/clean
+clean: CMakeFiles/pointer5.dir/clean
+clean: CMakeFiles/pointer6.dir/clean
+clean: CMakeFiles/exercise1.dir/clean
+clean: CMakeFiles/exercise2.dir/clean
+clean: CMakeFiles/exercise32.dir/clean
+clean: CMakeFiles/integrador1.dir/clean
+clean: CMakeFiles/integrador2.dir/clean
+clean: CMakeFiles/integrador3.dir/clean
+clean: CMakeFiles/abc.dir/clean
+clean: CMakeFiles/parcial1.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer1.dir
+
+# All Build rule for target.
+CMakeFiles/pointer1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer1.dir\build.make CMakeFiles/pointer1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer1.dir\build.make CMakeFiles/pointer1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=29,30 "Built target pointer1"
+.PHONY : CMakeFiles/pointer1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pointer1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pointer1.dir/rule
+
+# Convenience name for target.
+pointer1: CMakeFiles/pointer1.dir/rule
+.PHONY : pointer1
+
+# clean rule for target.
+CMakeFiles/pointer1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer1.dir\build.make CMakeFiles/pointer1.dir/clean
+.PHONY : CMakeFiles/pointer1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/struct_employee.dir
@@ -90,7 +144,7 @@ clean: CMakeFiles/file1.dir/clean
 CMakeFiles/struct_employee.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target struct_employee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=41,42 "Built target struct_employee"
 .PHONY : CMakeFiles/struct_employee.dir/all
 
 # Build rule for subdir invocation for target.
@@ -116,7 +170,7 @@ CMakeFiles/struct_employee.dir/clean:
 CMakeFiles/books.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\books.dir\build.make CMakeFiles/books.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target books"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=3,4,5 "Built target books"
 .PHONY : CMakeFiles/books.dir/all
 
 # Build rule for subdir invocation for target.
@@ -142,7 +196,7 @@ CMakeFiles/books.dir/clean:
 CMakeFiles/pets.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=10,11,12 "Built target pets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=26,27,28 "Built target pets"
 .PHONY : CMakeFiles/pets.dir/all
 
 # Build rule for subdir invocation for target.
@@ -162,13 +216,39 @@ CMakeFiles/pets.dir/clean:
 .PHONY : CMakeFiles/pets.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/pointer2.dir
+
+# All Build rule for target.
+CMakeFiles/pointer2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer2.dir\build.make CMakeFiles/pointer2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer2.dir\build.make CMakeFiles/pointer2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=31,32 "Built target pointer2"
+.PHONY : CMakeFiles/pointer2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pointer2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pointer2.dir/rule
+
+# Convenience name for target.
+pointer2: CMakeFiles/pointer2.dir/rule
+.PHONY : pointer2
+
+# clean rule for target.
+CMakeFiles/pointer2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer2.dir\build.make CMakeFiles/pointer2.dir/clean
+.PHONY : CMakeFiles/pointer2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/gym.dir
 
 # All Build rule for target.
 CMakeFiles/gym.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gym.dir\build.make CMakeFiles/gym.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=8,9 "Built target gym"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=16,17 "Built target gym"
 .PHONY : CMakeFiles/gym.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +274,7 @@ CMakeFiles/gym.dir/clean:
 CMakeFiles/file.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=4,5 "Built target file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=12,13 "Built target file"
 .PHONY : CMakeFiles/file.dir/all
 
 # Build rule for subdir invocation for target.
@@ -220,7 +300,7 @@ CMakeFiles/file.dir/clean:
 CMakeFiles/file1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file1.dir\build.make CMakeFiles/file1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file1.dir\build.make CMakeFiles/file1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=6,7 "Built target file1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=14,15 "Built target file1"
 .PHONY : CMakeFiles/file1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,6 +318,318 @@ file1: CMakeFiles/file1.dir/rule
 CMakeFiles/file1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\file1.dir\build.make CMakeFiles/file1.dir/clean
 .PHONY : CMakeFiles/file1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer3.dir
+
+# All Build rule for target.
+CMakeFiles/pointer3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer3.dir\build.make CMakeFiles/pointer3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer3.dir\build.make CMakeFiles/pointer3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=33,34 "Built target pointer3"
+.PHONY : CMakeFiles/pointer3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pointer3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pointer3.dir/rule
+
+# Convenience name for target.
+pointer3: CMakeFiles/pointer3.dir/rule
+.PHONY : pointer3
+
+# clean rule for target.
+CMakeFiles/pointer3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer3.dir\build.make CMakeFiles/pointer3.dir/clean
+.PHONY : CMakeFiles/pointer3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer4.dir
+
+# All Build rule for target.
+CMakeFiles/pointer4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer4.dir\build.make CMakeFiles/pointer4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer4.dir\build.make CMakeFiles/pointer4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=35,36 "Built target pointer4"
+.PHONY : CMakeFiles/pointer4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pointer4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pointer4.dir/rule
+
+# Convenience name for target.
+pointer4: CMakeFiles/pointer4.dir/rule
+.PHONY : pointer4
+
+# clean rule for target.
+CMakeFiles/pointer4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer4.dir\build.make CMakeFiles/pointer4.dir/clean
+.PHONY : CMakeFiles/pointer4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer5.dir
+
+# All Build rule for target.
+CMakeFiles/pointer5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer5.dir\build.make CMakeFiles/pointer5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer5.dir\build.make CMakeFiles/pointer5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=37,38 "Built target pointer5"
+.PHONY : CMakeFiles/pointer5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pointer5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pointer5.dir/rule
+
+# Convenience name for target.
+pointer5: CMakeFiles/pointer5.dir/rule
+.PHONY : pointer5
+
+# clean rule for target.
+CMakeFiles/pointer5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer5.dir\build.make CMakeFiles/pointer5.dir/clean
+.PHONY : CMakeFiles/pointer5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer6.dir
+
+# All Build rule for target.
+CMakeFiles/pointer6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer6.dir\build.make CMakeFiles/pointer6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer6.dir\build.make CMakeFiles/pointer6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=39,40 "Built target pointer6"
+.PHONY : CMakeFiles/pointer6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pointer6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pointer6.dir/rule
+
+# Convenience name for target.
+pointer6: CMakeFiles/pointer6.dir/rule
+.PHONY : pointer6
+
+# clean rule for target.
+CMakeFiles/pointer6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer6.dir\build.make CMakeFiles/pointer6.dir/clean
+.PHONY : CMakeFiles/pointer6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exercise1.dir
+
+# All Build rule for target.
+CMakeFiles/exercise1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise1.dir\build.make CMakeFiles/exercise1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise1.dir\build.make CMakeFiles/exercise1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=6,7 "Built target exercise1"
+.PHONY : CMakeFiles/exercise1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exercise1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/exercise1.dir/rule
+
+# Convenience name for target.
+exercise1: CMakeFiles/exercise1.dir/rule
+.PHONY : exercise1
+
+# clean rule for target.
+CMakeFiles/exercise1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise1.dir\build.make CMakeFiles/exercise1.dir/clean
+.PHONY : CMakeFiles/exercise1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exercise2.dir
+
+# All Build rule for target.
+CMakeFiles/exercise2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=8,9 "Built target exercise2"
+.PHONY : CMakeFiles/exercise2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exercise2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/exercise2.dir/rule
+
+# Convenience name for target.
+exercise2: CMakeFiles/exercise2.dir/rule
+.PHONY : exercise2
+
+# clean rule for target.
+CMakeFiles/exercise2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/clean
+.PHONY : CMakeFiles/exercise2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exercise32.dir
+
+# All Build rule for target.
+CMakeFiles/exercise32.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=10,11 "Built target exercise32"
+.PHONY : CMakeFiles/exercise32.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise32.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exercise32.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/exercise32.dir/rule
+
+# Convenience name for target.
+exercise32: CMakeFiles/exercise32.dir/rule
+.PHONY : exercise32
+
+# clean rule for target.
+CMakeFiles/exercise32.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/clean
+.PHONY : CMakeFiles/exercise32.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/integrador1.dir
+
+# All Build rule for target.
+CMakeFiles/integrador1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador1.dir\build.make CMakeFiles/integrador1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador1.dir\build.make CMakeFiles/integrador1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=18,19 "Built target integrador1"
+.PHONY : CMakeFiles/integrador1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/integrador1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/integrador1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/integrador1.dir/rule
+
+# Convenience name for target.
+integrador1: CMakeFiles/integrador1.dir/rule
+.PHONY : integrador1
+
+# clean rule for target.
+CMakeFiles/integrador1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador1.dir\build.make CMakeFiles/integrador1.dir/clean
+.PHONY : CMakeFiles/integrador1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/integrador2.dir
+
+# All Build rule for target.
+CMakeFiles/integrador2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador2.dir\build.make CMakeFiles/integrador2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador2.dir\build.make CMakeFiles/integrador2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=20,21 "Built target integrador2"
+.PHONY : CMakeFiles/integrador2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/integrador2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/integrador2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/integrador2.dir/rule
+
+# Convenience name for target.
+integrador2: CMakeFiles/integrador2.dir/rule
+.PHONY : integrador2
+
+# clean rule for target.
+CMakeFiles/integrador2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador2.dir\build.make CMakeFiles/integrador2.dir/clean
+.PHONY : CMakeFiles/integrador2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/integrador3.dir
+
+# All Build rule for target.
+CMakeFiles/integrador3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=22,23 "Built target integrador3"
+.PHONY : CMakeFiles/integrador3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/integrador3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/integrador3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/integrador3.dir/rule
+
+# Convenience name for target.
+integrador3: CMakeFiles/integrador3.dir/rule
+.PHONY : integrador3
+
+# clean rule for target.
+CMakeFiles/integrador3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/clean
+.PHONY : CMakeFiles/integrador3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/abc.dir
+
+# All Build rule for target.
+CMakeFiles/abc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abc.dir\build.make CMakeFiles/abc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abc.dir\build.make CMakeFiles/abc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target abc"
+.PHONY : CMakeFiles/abc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/abc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/abc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/abc.dir/rule
+
+# Convenience name for target.
+abc: CMakeFiles/abc.dir/rule
+.PHONY : abc
+
+# clean rule for target.
+CMakeFiles/abc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\abc.dir\build.make CMakeFiles/abc.dir/clean
+.PHONY : CMakeFiles/abc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/parcial1.dir
+
+# All Build rule for target.
+CMakeFiles/parcial1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=24,25 "Built target parcial1"
+.PHONY : CMakeFiles/parcial1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/parcial1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/parcial1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/parcial1.dir/rule
+
+# Convenience name for target.
+parcial1: CMakeFiles/parcial1.dir/rule
+.PHONY : parcial1
+
+# clean rule for target.
+CMakeFiles/parcial1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/clean
+.PHONY : CMakeFiles/parcial1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
