@@ -43,7 +43,7 @@ int Book::get_price(){
 return price;
 }
 
-string Book::to_string(void) {
+string Book::to_string() {
   string print_string=" ";
 
     print_string="nombre:" +name+ "genero: " +gender+ "paginas: " +std::to_string(pages)+ "precio: "+ std::to_string(price);

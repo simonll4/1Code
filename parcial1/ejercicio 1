@@ -1,0 +1,21 @@
+1. Crear un programa que gestione el listado de celulares
+ que estan a la venta. Para ello crear una estructura “celular”,
+  en la cual contenga los siguientes datos: codigo, marca,
+  precio_lista, precio_publico, stock. Luego, crear un vector
+  de estructuras del tipo celular de tamaño 3. Cargar los datos
+   por defecto al vector.
+
+
+
+Código	Marca	Precio_lista	Precio_publico	stock
+1	Apple	1000	0	                          3
+2	Samsung	600	0	0
+3	Nokia	300	0	4
+Crear un menú que permita las opciones:
+
+a. mostrar el listado completo de celulares
+b. mostrar el listado completo de celulares que no hay stock. Y
+generar un archivo para enviar al proveedor.
+c. calcular_precio_publico. El precio al publico es
+una 30% mas del precio de lista.
+d. ordenar por precio publico

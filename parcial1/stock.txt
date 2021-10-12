@@ -1,0 +1,5 @@
+Codigo: 2
+Marca: Samsung
+Precio Lista: 600
+Calcular precio Publico: 180
+Stock: 0

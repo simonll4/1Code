@@ -9,7 +9,7 @@ int main(){
     char abc[10];
 
     for (int ii = 0; ii < 10 ; ++ii) {
-        abc[ii] = rand()%90+65;
+        abc[ii] = rand()%25+65;
         cout << abc[ii] << "\t";
     }
 

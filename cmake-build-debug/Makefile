@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named listas2
+
+# Build rule for target.
+listas2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 listas2
+.PHONY : listas2
+
+# fast build rule for target.
+listas2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas2.dir\build.make CMakeFiles/listas2.dir/build
+.PHONY : listas2/fast
+
+#=============================================================================
 # Target rules for targets named pointer1
 
 # Build rule for target.
@@ -142,6 +155,19 @@ struct_employee/fast:
 .PHONY : struct_employee/fast
 
 #=============================================================================
+# Target rules for targets named ejercicio1
+
+# Build rule for target.
+ejercicio1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ejercicio1
+.PHONY : ejercicio1
+
+# fast build rule for target.
+ejercicio1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio1.dir\build.make CMakeFiles/ejercicio1.dir/build
+.PHONY : ejercicio1/fast
+
+#=============================================================================
 # Target rules for targets named books
 
 # Build rule for target.
@@ -166,6 +192,19 @@ pets: cmake_check_build_system
 pets/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/build
 .PHONY : pets/fast
+
+#=============================================================================
+# Target rules for targets named listas1
+
+# Build rule for target.
+listas1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 listas1
+.PHONY : listas1
+
+# fast build rule for target.
+listas1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas1.dir\build.make CMakeFiles/listas1.dir/build
+.PHONY : listas1/fast
 
 #=============================================================================
 # Target rules for targets named pointer2
@@ -285,6 +324,19 @@ exercise1/fast:
 .PHONY : exercise1/fast
 
 #=============================================================================
+# Target rules for targets named ejercicio3
+
+# Build rule for target.
+ejercicio3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ejercicio3
+.PHONY : ejercicio3
+
+# fast build rule for target.
+ejercicio3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio3.dir\build.make CMakeFiles/ejercicio3.dir/build
+.PHONY : ejercicio3/fast
+
+#=============================================================================
 # Target rules for targets named exercise2
 
 # Build rule for target.
@@ -363,17 +415,30 @@ abc/fast:
 .PHONY : abc/fast
 
 #=============================================================================
-# Target rules for targets named parcial1
+# Target rules for targets named mascotas2
 
 # Build rule for target.
-parcial1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 parcial1
-.PHONY : parcial1
+mascotas2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mascotas2
+.PHONY : mascotas2
 
 # fast build rule for target.
-parcial1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/build
-.PHONY : parcial1/fast
+mascotas2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mascotas2.dir\build.make CMakeFiles/mascotas2.dir/build
+.PHONY : mascotas2/fast
+
+#=============================================================================
+# Target rules for targets named ejercicio2
+
+# Build rule for target.
+ejercicio2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ejercicio2
+.PHONY : ejercicio2
+
+# fast build rule for target.
+ejercicio2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio2.dir\build.make CMakeFiles/ejercicio2.dir/build
+.PHONY : ejercicio2/fast
 
 abecedarioASCCI.obj: abecedarioASCCI.cpp.obj
 .PHONY : abecedarioASCCI.obj
@@ -543,6 +608,54 @@ class/2.pet_class.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pets.dir\build.make CMakeFiles/pets.dir/class/2.pet_class.cpp.s
 .PHONY : class/2.pet_class.cpp.s
 
+class/3.mascotas.obj: class/3.mascotas.cpp.obj
+.PHONY : class/3.mascotas.obj
+
+# target to build an object file
+class/3.mascotas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mascotas2.dir\build.make CMakeFiles/mascotas2.dir/class/3.mascotas.cpp.obj
+.PHONY : class/3.mascotas.cpp.obj
+
+class/3.mascotas.i: class/3.mascotas.cpp.i
+.PHONY : class/3.mascotas.i
+
+# target to preprocess a source file
+class/3.mascotas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mascotas2.dir\build.make CMakeFiles/mascotas2.dir/class/3.mascotas.cpp.i
+.PHONY : class/3.mascotas.cpp.i
+
+class/3.mascotas.s: class/3.mascotas.cpp.s
+.PHONY : class/3.mascotas.s
+
+# target to generate assembly for a file
+class/3.mascotas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mascotas2.dir\build.make CMakeFiles/mascotas2.dir/class/3.mascotas.cpp.s
+.PHONY : class/3.mascotas.cpp.s
+
+class/classMascota.obj: class/classMascota.cpp.obj
+.PHONY : class/classMascota.obj
+
+# target to build an object file
+class/classMascota.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mascotas2.dir\build.make CMakeFiles/mascotas2.dir/class/classMascota.cpp.obj
+.PHONY : class/classMascota.cpp.obj
+
+class/classMascota.i: class/classMascota.cpp.i
+.PHONY : class/classMascota.i
+
+# target to preprocess a source file
+class/classMascota.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mascotas2.dir\build.make CMakeFiles/mascotas2.dir/class/classMascota.cpp.i
+.PHONY : class/classMascota.cpp.i
+
+class/classMascota.s: class/classMascota.cpp.s
+.PHONY : class/classMascota.s
+
+# target to generate assembly for a file
+class/classMascota.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mascotas2.dir\build.make CMakeFiles/mascotas2.dir/class/classMascota.cpp.s
+.PHONY : class/classMascota.cpp.s
+
 dinamica/1.exercise.obj: dinamica/1.exercise.cpp.obj
 .PHONY : dinamica/1.exercise.obj
 
@@ -687,29 +800,125 @@ integradoresP1/3.integrador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\integrador3.dir\build.make CMakeFiles/integrador3.dir/integradoresP1/3.integrador.cpp.s
 .PHONY : integradoresP1/3.integrador.cpp.s
 
-integradoresP1/4.parcial.obj: integradoresP1/4.parcial.cpp.obj
-.PHONY : integradoresP1/4.parcial.obj
+listasElazadas/1.ejercicio.obj: listasElazadas/1.ejercicio.cpp.obj
+.PHONY : listasElazadas/1.ejercicio.obj
 
 # target to build an object file
-integradoresP1/4.parcial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/integradoresP1/4.parcial.cpp.obj
-.PHONY : integradoresP1/4.parcial.cpp.obj
+listasElazadas/1.ejercicio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas1.dir\build.make CMakeFiles/listas1.dir/listasElazadas/1.ejercicio.cpp.obj
+.PHONY : listasElazadas/1.ejercicio.cpp.obj
 
-integradoresP1/4.parcial.i: integradoresP1/4.parcial.cpp.i
-.PHONY : integradoresP1/4.parcial.i
+listasElazadas/1.ejercicio.i: listasElazadas/1.ejercicio.cpp.i
+.PHONY : listasElazadas/1.ejercicio.i
 
 # target to preprocess a source file
-integradoresP1/4.parcial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/integradoresP1/4.parcial.cpp.i
-.PHONY : integradoresP1/4.parcial.cpp.i
+listasElazadas/1.ejercicio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas1.dir\build.make CMakeFiles/listas1.dir/listasElazadas/1.ejercicio.cpp.i
+.PHONY : listasElazadas/1.ejercicio.cpp.i
 
-integradoresP1/4.parcial.s: integradoresP1/4.parcial.cpp.s
-.PHONY : integradoresP1/4.parcial.s
+listasElazadas/1.ejercicio.s: listasElazadas/1.ejercicio.cpp.s
+.PHONY : listasElazadas/1.ejercicio.s
 
 # target to generate assembly for a file
-integradoresP1/4.parcial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\parcial1.dir\build.make CMakeFiles/parcial1.dir/integradoresP1/4.parcial.cpp.s
-.PHONY : integradoresP1/4.parcial.cpp.s
+listasElazadas/1.ejercicio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas1.dir\build.make CMakeFiles/listas1.dir/listasElazadas/1.ejercicio.cpp.s
+.PHONY : listasElazadas/1.ejercicio.cpp.s
+
+listasElazadas/2.ejercicio.obj: listasElazadas/2.ejercicio.cpp.obj
+.PHONY : listasElazadas/2.ejercicio.obj
+
+# target to build an object file
+listasElazadas/2.ejercicio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas2.dir\build.make CMakeFiles/listas2.dir/listasElazadas/2.ejercicio.cpp.obj
+.PHONY : listasElazadas/2.ejercicio.cpp.obj
+
+listasElazadas/2.ejercicio.i: listasElazadas/2.ejercicio.cpp.i
+.PHONY : listasElazadas/2.ejercicio.i
+
+# target to preprocess a source file
+listasElazadas/2.ejercicio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas2.dir\build.make CMakeFiles/listas2.dir/listasElazadas/2.ejercicio.cpp.i
+.PHONY : listasElazadas/2.ejercicio.cpp.i
+
+listasElazadas/2.ejercicio.s: listasElazadas/2.ejercicio.cpp.s
+.PHONY : listasElazadas/2.ejercicio.s
+
+# target to generate assembly for a file
+listasElazadas/2.ejercicio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listas2.dir\build.make CMakeFiles/listas2.dir/listasElazadas/2.ejercicio.cpp.s
+.PHONY : listasElazadas/2.ejercicio.cpp.s
+
+parcial1/llamosas_simon_eje1.obj: parcial1/llamosas_simon_eje1.cpp.obj
+.PHONY : parcial1/llamosas_simon_eje1.obj
+
+# target to build an object file
+parcial1/llamosas_simon_eje1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio1.dir\build.make CMakeFiles/ejercicio1.dir/parcial1/llamosas_simon_eje1.cpp.obj
+.PHONY : parcial1/llamosas_simon_eje1.cpp.obj
+
+parcial1/llamosas_simon_eje1.i: parcial1/llamosas_simon_eje1.cpp.i
+.PHONY : parcial1/llamosas_simon_eje1.i
+
+# target to preprocess a source file
+parcial1/llamosas_simon_eje1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio1.dir\build.make CMakeFiles/ejercicio1.dir/parcial1/llamosas_simon_eje1.cpp.i
+.PHONY : parcial1/llamosas_simon_eje1.cpp.i
+
+parcial1/llamosas_simon_eje1.s: parcial1/llamosas_simon_eje1.cpp.s
+.PHONY : parcial1/llamosas_simon_eje1.s
+
+# target to generate assembly for a file
+parcial1/llamosas_simon_eje1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio1.dir\build.make CMakeFiles/ejercicio1.dir/parcial1/llamosas_simon_eje1.cpp.s
+.PHONY : parcial1/llamosas_simon_eje1.cpp.s
+
+parcial1/llamosas_simon_eje2.obj: parcial1/llamosas_simon_eje2.cpp.obj
+.PHONY : parcial1/llamosas_simon_eje2.obj
+
+# target to build an object file
+parcial1/llamosas_simon_eje2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio2.dir\build.make CMakeFiles/ejercicio2.dir/parcial1/llamosas_simon_eje2.cpp.obj
+.PHONY : parcial1/llamosas_simon_eje2.cpp.obj
+
+parcial1/llamosas_simon_eje2.i: parcial1/llamosas_simon_eje2.cpp.i
+.PHONY : parcial1/llamosas_simon_eje2.i
+
+# target to preprocess a source file
+parcial1/llamosas_simon_eje2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio2.dir\build.make CMakeFiles/ejercicio2.dir/parcial1/llamosas_simon_eje2.cpp.i
+.PHONY : parcial1/llamosas_simon_eje2.cpp.i
+
+parcial1/llamosas_simon_eje2.s: parcial1/llamosas_simon_eje2.cpp.s
+.PHONY : parcial1/llamosas_simon_eje2.s
+
+# target to generate assembly for a file
+parcial1/llamosas_simon_eje2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio2.dir\build.make CMakeFiles/ejercicio2.dir/parcial1/llamosas_simon_eje2.cpp.s
+.PHONY : parcial1/llamosas_simon_eje2.cpp.s
+
+parcial1/llamosas_simon_eje3.obj: parcial1/llamosas_simon_eje3.cpp.obj
+.PHONY : parcial1/llamosas_simon_eje3.obj
+
+# target to build an object file
+parcial1/llamosas_simon_eje3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio3.dir\build.make CMakeFiles/ejercicio3.dir/parcial1/llamosas_simon_eje3.cpp.obj
+.PHONY : parcial1/llamosas_simon_eje3.cpp.obj
+
+parcial1/llamosas_simon_eje3.i: parcial1/llamosas_simon_eje3.cpp.i
+.PHONY : parcial1/llamosas_simon_eje3.i
+
+# target to preprocess a source file
+parcial1/llamosas_simon_eje3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio3.dir\build.make CMakeFiles/ejercicio3.dir/parcial1/llamosas_simon_eje3.cpp.i
+.PHONY : parcial1/llamosas_simon_eje3.cpp.i
+
+parcial1/llamosas_simon_eje3.s: parcial1/llamosas_simon_eje3.cpp.s
+.PHONY : parcial1/llamosas_simon_eje3.s
+
+# target to generate assembly for a file
+parcial1/llamosas_simon_eje3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio3.dir\build.make CMakeFiles/ejercicio3.dir/parcial1/llamosas_simon_eje3.cpp.s
+.PHONY : parcial1/llamosas_simon_eje3.cpp.s
 
 punteros/1.main.obj: punteros/1.main.cpp.obj
 .PHONY : punteros/1.main.obj
@@ -913,6 +1122,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... abc
 	@echo ... books
+	@echo ... ejercicio1
+	@echo ... ejercicio2
+	@echo ... ejercicio3
 	@echo ... exercise1
 	@echo ... exercise2
 	@echo ... exercise32
@@ -922,7 +1134,9 @@ help:
 	@echo ... integrador1
 	@echo ... integrador2
 	@echo ... integrador3
-	@echo ... parcial1
+	@echo ... listas1
+	@echo ... listas2
+	@echo ... mascotas2
 	@echo ... pets
 	@echo ... pointer1
 	@echo ... pointer2
@@ -952,6 +1166,12 @@ help:
 	@echo ... class/2.pet_class.obj
 	@echo ... class/2.pet_class.i
 	@echo ... class/2.pet_class.s
+	@echo ... class/3.mascotas.obj
+	@echo ... class/3.mascotas.i
+	@echo ... class/3.mascotas.s
+	@echo ... class/classMascota.obj
+	@echo ... class/classMascota.i
+	@echo ... class/classMascota.s
 	@echo ... dinamica/1.exercise.obj
 	@echo ... dinamica/1.exercise.i
 	@echo ... dinamica/1.exercise.s
@@ -970,9 +1190,21 @@ help:
 	@echo ... integradoresP1/3.integrador.obj
 	@echo ... integradoresP1/3.integrador.i
 	@echo ... integradoresP1/3.integrador.s
-	@echo ... integradoresP1/4.parcial.obj
-	@echo ... integradoresP1/4.parcial.i
-	@echo ... integradoresP1/4.parcial.s
+	@echo ... listasElazadas/1.ejercicio.obj
+	@echo ... listasElazadas/1.ejercicio.i
+	@echo ... listasElazadas/1.ejercicio.s
+	@echo ... listasElazadas/2.ejercicio.obj
+	@echo ... listasElazadas/2.ejercicio.i
+	@echo ... listasElazadas/2.ejercicio.s
+	@echo ... parcial1/llamosas_simon_eje1.obj
+	@echo ... parcial1/llamosas_simon_eje1.i
+	@echo ... parcial1/llamosas_simon_eje1.s
+	@echo ... parcial1/llamosas_simon_eje2.obj
+	@echo ... parcial1/llamosas_simon_eje2.i
+	@echo ... parcial1/llamosas_simon_eje2.s
+	@echo ... parcial1/llamosas_simon_eje3.obj
+	@echo ... parcial1/llamosas_simon_eje3.i
+	@echo ... parcial1/llamosas_simon_eje3.s
 	@echo ... punteros/1.main.obj
 	@echo ... punteros/1.main.i
 	@echo ... punteros/1.main.s

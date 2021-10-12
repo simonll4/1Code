@@ -12,11 +12,11 @@
 #include <iostream>
 #include <ctime>
 
-int menu();
+
 
 using namespace std;
 
-
+int menu();
 
 int *addNums(int *, int &);
 

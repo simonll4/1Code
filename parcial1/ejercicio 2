@@ -1,0 +1,13 @@
+2. Escribir un programa utilizando punteros y funciones en
+la cual se desea cargar en un vector de tamaño 5.
+Rellenar con valores aleatorios entre 1 y 10.
+Luego crear un menú de opciones con las siguientes
+llamadas a funciones:
+
+a. Mostrar los valores y direcciones de memoria.
+b. Buscar y mostrar el numero menor y el numero mayor.
+c. Calcular la suma de los valores pares.
+
+for (int ii = 0; ii < SIZE; ++ii) {
+        cout<<"\t"<<vector[ii];
+    }

@@ -1,0 +1,7 @@
+3. Crear un programa en la cual contenga un menú de
+ opciones con distintas operaciones:
+
+a. Reserva de memoria e introducción de datos enteros
+b. Agregar reserva de memoria e introducción de nuevos datos enteros
+c. Mostrar los datos en el orden y orden invertido al que fueron
+ introducidos
