@@ -6,7 +6,7 @@ using namespace std;
 
 #define TAM 2
 
-struct product{
+struct Product{
 
     string productName = " ";
     string brand = " ";
@@ -16,12 +16,12 @@ struct product{
 
 };
 
-void addProducts(product *);
+void addProducts(Product *);
 void readList();
 
 int main(){
 
-    product p[TAM];
+    Product p[TAM];
     int option = 0;
     
     do{
@@ -49,7 +49,7 @@ int main(){
     return 0;
 }
 
-void addProducts(product *p){
+void addProducts(Product *p){
     ofstream oFile;
 
     oFile.open("product1.txt");

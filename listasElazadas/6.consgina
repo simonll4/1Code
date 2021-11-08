@@ -1,0 +1,40 @@
+/*
+ 2. En una tienda de indumentaria se desea gestionar el stock de sus prendas deportivas.
+ Este stock consiste en una lista de productos (TDA Lista) con los siguientes atributos: código, nombre, talle,
+ precio lista, precio al público, stock, vendido. Se tiene el siguiente listado de productos.
+
+Cargar por defecto el siguiente listado.
+
+Lista de Productos
+
+
+
+Código	Nombre	Talle	Precio Lista	Precio al Publico*	Stock	Vendido
+1	 Musculosa	S	200	320	0	0
+2	Musculosa	M	230	368	8	2
+3	Musculosa	L	260	416	50	10
+4	Short	S	1100	1760	5	3
+5	Short	M	1300	2080	10	0
+6	Short	L	1400	2240	0	0
+* Columna calculada.
+
+Luego calcular el precio al público. El precio es un 60% más del precio lista del producto.
+
+Generar un menú con las siguientes opciones:
+
+a. realizar una venta. Se muestra un listado del stock disponible. Luego se ingresa el ítem y la
+ cantidad. Debe preguntar si desea otro ítem mas. Una vez terminada la venta el sistema debe generar
+ la factura con los ítems comprados, calculo del subtotal y el total. Luego pregunta como va abonar.
+ Si es con efectivo, verifica si tiene que dar vuelto, en caso de ser con débito o transferencia es
+ con el mismo valor y si es con tarjeta tiene un recargo de 1% de la compra.
+
+Una ver realizada la compra se debe cargar en una lista de facturas.
+
+b. Mostrar un listado de las facturas del día
+
+c. calcular la recaudación del día y la ganancia del día.
+
+d. Mostrar el listado de productos por talle. Son 3 listas una para S, M y L.
+
+e. Generar un archivo con los productos faltantes. Stock igual 0.
+ */

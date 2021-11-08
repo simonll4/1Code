@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/1.ejercicio.cpp
+iostream
+-
+queue
+-
+LinkedList.h
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/LinkedList.h
+stack
+-
+ctime
+-
+random
+-
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/LinkedList.h
+Node.h
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/Node.h
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/Node.h
+

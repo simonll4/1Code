@@ -1,0 +1,27 @@
+1. Una empresa dedicada al rubro de las telecomunicaciones
+brinda servicios de internet a las municipalidades y
+escuelas de los distintos pueblos de traslasierra.
+Generar un listado (TDA Lista) de las facturas del mes y año
+en curso con los siguientes datos: N° de Cliente, Ciudad,
+cantidad GB consumidos en el mes, monto a pagar. Realizar los
+cálculos correspondientes si el costo es 1 GB = $20. Por ejemplo:
+
+N° Cliente      Pueblo      Consumo     Monto a pagar*
+
+1               Nono        50 gb
+2               San Javier  100 gb
+3               Luyaba      20 gb
+4               La Paz      35 gb
+
+
+*la columna monto a pagar debe ser calculado
+
+Luego, crear un menú de opciones con las siguientes operaciones:
+
+Pago de factura. Cuando el pueblo va pagar la factura,
+se realiza la búsqueda en el listado, muestra la factura y
+solicita el día de pago. En caso de que el pago se realice
+después del día 11 inclusive se le sumará un recargo fijo de $100.
+Finalmente muestra el recibo por pantalla y guarda el recibo en una TDA Pila.
+
+Mostrar la lista y pila

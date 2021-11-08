@@ -5,7 +5,7 @@
 using namespace std;
 
 
-struct product{
+struct Product{
 
     string productName = " ";
     string brand = " ";
@@ -17,7 +17,7 @@ struct product{
 
 int main(){
     ofstream oFile;
-    product p1;
+    Product p1;
 
     cout<<"Ingrese datos del producto: "<<endl;
     cout<<"Nombre: "<<endl;
@@ -32,7 +32,7 @@ int main(){
     cin>>p1.size;
 
 
-    oFile.open("product.txt");
+    oFile.open("Product.txt");
     if(oFile.is_open()){
 
         oFile<<"Nombre: "<<p1.productName<<endl;

@@ -1,0 +1,7 @@
+*************** RESUMEN DEL DIA *****************
+Cantidad de tickects emitidos en el dia: 5
+Autos que entran a la ciudad: 2
+Personas que entran a la ciudad: 5
+Autos que salen de la ciudad: 3
+Personas que salen de la ciudad: 7
+Total recaudado: 130

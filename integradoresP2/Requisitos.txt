@@ -1,0 +1,5 @@
+********** APPS PARA REQUERIDAS PARA EL JUEGO ***********
+Aplicacion: DIRECTX
+Prioridad: 2
+Aplicacion: STEAM
+Prioridad: 1
