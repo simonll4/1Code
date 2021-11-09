@@ -1,0 +1,12 @@
+3. Se solicita que programe un juego para los niños que están
+aprendiendo las tablas de multiplicar del 2 al 10. Crear un
+menú de opciones (1-Realizar una multiplicación, 0-Finalizar el juego).
+El programa propone una multiplicación al azar y lo guarda en un TDA Lista,
+y el jugador debe ingresar un resultado propuesto. El programa evalúa el resultado,
+si es correcto le otorga 10 puntos, en caso contrario 0 puntos. Cuando el resultado
+es incorrecto, el programa guarda esta multiplicación en una TDA Cola para ser mostradas
+al jugador con el resultado correcto cuando finalice el juego, junto con el puntaje.
+
+Multiplicando       Multiplicador       Producto
+    2                   2                   4
+

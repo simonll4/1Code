@@ -1,25 +1,3 @@
-/*1. Una empresa dedicada al rubro de las telecomunicaciones brinda servicios de internet a las cooperativas de las comunas
- * de las Sierras de Calamuchita.
-
-Generar un listado (TDA Lista) de las facturas del mes y año en curso de las cooperativas con los siguientes datos:
- N° de Cliente, Comuna, cantidad GB consumidos en el mes, monto a pagar.
- Realizar los cálculos correspondientes si el costo es 1 GB = $70. Por ejemplo:
-
-Lista de Facturación
-
-        N°Cliente	Comuna	Consumo	Monto a pagar
-            1	   Anisacate  100	   7000
-            2	   La Bolsa	   30	   2100
-            3Villa Los Aromos 35	    2450
-Luego, crear un menú de opciones con las siguientes operaciones:
-
-- Pago de factura. Cuando la comuna va pagar la factura, se realiza la búsqueda en el listado, muestra la factura
- y solicita el día de pago. En caso de que el pago se realiza después del día 11 inclusive se le sumará un recargo
- de $10 por día de retraso. Finalmente muestra el recibo por pantalla.
-
-- Mostrar la lista y guardar en un archivo la lista.
- */
-
 #include <iostream>
 #include "LinkedList.h"
 #include <fstream>

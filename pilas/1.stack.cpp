@@ -11,14 +11,14 @@ using namespace std;
 
 void enterDate(stack<int> *);
 
-void showQueue(stack<int> *);
+void showQueue(stack<int> );
 
 void remove(stack<int> *);
 
 void addDate(stack<int> *);
 
 int main(){
-    stack<int> q1;
+    stack<int> s1;
     int option;
 
     do {
@@ -33,16 +33,16 @@ int main(){
             case 0:
                 break;
             case 1:
-                enterDate(&q1);
+                enterDate(&s1);
                 break;
             case 2:
-                showQueue(&q1);
+                showQueue(s1);
                 break;
             case 3:
-                remove(&q1);
+                remove(&s1);
                 break;
             case 4:
-                addDate(&q1);
+                addDate(&s1);
                 break;
             default:
                 cout << "Ingrese una opcion correcta" << endl;
@@ -54,3 +54,22 @@ int main(){
 
     return 0;
 }
+
+void enterDate(stack<int> *s1){
+    int num;
+
+    cout<<"Ingresar valores enteros, para finalizar ingresar 0: "<<endl;
+    do{
+        cin>>num;
+        if(num!=0){
+            s1->push(num);
+        }
+    }while(num !=0);
+
+}
+
+void showQueue(stack<int> ){
+
+}
+
+

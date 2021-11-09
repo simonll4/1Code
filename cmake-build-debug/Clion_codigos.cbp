@@ -983,6 +983,48 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="listastruct3">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listastruct3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listastruct3"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listastruct3/fast">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listastruct3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listastruct3/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="exercise32">
 				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/exercise32.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
@@ -1277,8 +1319,8 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="listas3">
-				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listas3.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="listasclass3">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listasclass3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1292,14 +1334,14 @@
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listas3"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listasclass3"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="listas3/fast">
-				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listas3.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="listasclass3/fast">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listasclass3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1313,49 +1355,7 @@
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listas3/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="listas4">
-				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listas4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listas4"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="listas4/fast">
-				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/listas4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listas4/fast"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 listasclass3/fast"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1571,11 +1571,137 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="5integrador">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/5integrador.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 5integrador"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5integrador/fast">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/5integrador.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 5integrador/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6integrador">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/6integrador.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 6integrador"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6integrador/fast">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/6integrador.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 6integrador/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eje1">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/eje1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 eje1"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eje1/fast">
+				<Option output="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/eje1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 eje1/fast"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1658,20 +1784,26 @@
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/4.ejercicio.cpp">
 			<Option target="4integrador"/>
 		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/5.ejercicio.cpp">
+			<Option target="5integrador"/>
+		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/integradoresP2/6.ejercicio.cpp">
+			<Option target="6integrador"/>
+		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/1.ejercicio.cpp">
 			<Option target="listas1"/>
 		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/2.ejercicio.cpp">
 			<Option target="listas2"/>
 		</Unit>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/3.Stock.cpp">
-			<Option target="listas3"/>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/3.ProductClass.cpp">
+			<Option target="listasclass3"/>
 		</Unit>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/3.ejercicio.cpp">
-			<Option target="listas3"/>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/3.stockClass.cpp">
+			<Option target="listasclass3"/>
 		</Unit>
-		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/4.ejercicio.cpp">
-			<Option target="listas4"/>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/3.stockStruct.cpp">
+			<Option target="listastruct3"/>
 		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/listasElazadas/5.listas_archivos.cpp">
 			<Option target="listas5"/>
@@ -1687,6 +1819,9 @@
 		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/parcial1/llamosas_simon_eje3.cpp">
 			<Option target="ejercicio3"/>
+		</Unit>
+		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/parcial2/LlamosasSimon_eje1.cpp">
+			<Option target="eje1"/>
 		</Unit>
 		<Unit filename="G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/pilas/1.stack.cpp">
 			<Option target="stack1"/>
