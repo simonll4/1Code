@@ -54,6 +54,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/listas2.dir/DependInfo.cmake"
   "CMakeFiles/pointer1.dir/DependInfo.cmake"
   "CMakeFiles/struct_employee.dir/DependInfo.cmake"
+  "CMakeFiles/2eje.dir/DependInfo.cmake"
   "CMakeFiles/ejercicio1.dir/DependInfo.cmake"
   "CMakeFiles/books.dir/DependInfo.cmake"
   "CMakeFiles/pets.dir/DependInfo.cmake"
@@ -89,6 +90,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1integrador.dir/DependInfo.cmake"
   "CMakeFiles/2integrador.dir/DependInfo.cmake"
   "CMakeFiles/5integrador.dir/DependInfo.cmake"
+  "CMakeFiles/3eje.dir/DependInfo.cmake"
   "CMakeFiles/6integrador.dir/DependInfo.cmake"
-  "CMakeFiles/eje1.dir/DependInfo.cmake"
+  "CMakeFiles/1eje.dir/DependInfo.cmake"
   )

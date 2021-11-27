@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.obj"
+  "CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.obj"
   "eje1.exe"
   "eje1.exe.manifest"
   "eje1.pdb"

@@ -155,6 +155,19 @@ struct_employee/fast:
 .PHONY : struct_employee/fast
 
 #=============================================================================
+# Target rules for targets named 2eje
+
+# Build rule for target.
+2eje: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2eje
+.PHONY : 2eje
+
+# fast build rule for target.
+2eje/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2eje.dir\build.make CMakeFiles/2eje.dir/build
+.PHONY : 2eje/fast
+
+#=============================================================================
 # Target rules for targets named ejercicio1
 
 # Build rule for target.
@@ -610,6 +623,19 @@ stack2/fast:
 .PHONY : 5integrador/fast
 
 #=============================================================================
+# Target rules for targets named 3eje
+
+# Build rule for target.
+3eje: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3eje
+.PHONY : 3eje
+
+# fast build rule for target.
+3eje/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3eje.dir\build.make CMakeFiles/3eje.dir/build
+.PHONY : 3eje/fast
+
+#=============================================================================
 # Target rules for targets named 6integrador
 
 # Build rule for target.
@@ -623,17 +649,17 @@ stack2/fast:
 .PHONY : 6integrador/fast
 
 #=============================================================================
-# Target rules for targets named eje1
+# Target rules for targets named 1eje
 
 # Build rule for target.
-eje1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 eje1
-.PHONY : eje1
+1eje: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1eje
+.PHONY : 1eje
 
 # fast build rule for target.
-eje1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eje1.dir\build.make CMakeFiles/eje1.dir/build
-.PHONY : eje1/fast
+1eje/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1eje.dir\build.make CMakeFiles/1eje.dir/build
+.PHONY : 1eje/fast
 
 abecedarioASCCI.obj: abecedarioASCCI.cpp.obj
 .PHONY : abecedarioASCCI.obj
@@ -1427,29 +1453,77 @@ parcial1/llamosas_simon_eje3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio3.dir\build.make CMakeFiles/ejercicio3.dir/parcial1/llamosas_simon_eje3.cpp.s
 .PHONY : parcial1/llamosas_simon_eje3.cpp.s
 
-parcial2/LlamosasSimon_eje1.obj: parcial2/LlamosasSimon_eje1.cpp.obj
-.PHONY : parcial2/LlamosasSimon_eje1.obj
+parcial2/1.LlamosasSimon_eje1.obj: parcial2/1.LlamosasSimon_eje1.cpp.obj
+.PHONY : parcial2/1.LlamosasSimon_eje1.obj
 
 # target to build an object file
-parcial2/LlamosasSimon_eje1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eje1.dir\build.make CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.obj
-.PHONY : parcial2/LlamosasSimon_eje1.cpp.obj
+parcial2/1.LlamosasSimon_eje1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1eje.dir\build.make CMakeFiles/1eje.dir/parcial2/1.LlamosasSimon_eje1.cpp.obj
+.PHONY : parcial2/1.LlamosasSimon_eje1.cpp.obj
 
-parcial2/LlamosasSimon_eje1.i: parcial2/LlamosasSimon_eje1.cpp.i
-.PHONY : parcial2/LlamosasSimon_eje1.i
+parcial2/1.LlamosasSimon_eje1.i: parcial2/1.LlamosasSimon_eje1.cpp.i
+.PHONY : parcial2/1.LlamosasSimon_eje1.i
 
 # target to preprocess a source file
-parcial2/LlamosasSimon_eje1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eje1.dir\build.make CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.i
-.PHONY : parcial2/LlamosasSimon_eje1.cpp.i
+parcial2/1.LlamosasSimon_eje1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1eje.dir\build.make CMakeFiles/1eje.dir/parcial2/1.LlamosasSimon_eje1.cpp.i
+.PHONY : parcial2/1.LlamosasSimon_eje1.cpp.i
 
-parcial2/LlamosasSimon_eje1.s: parcial2/LlamosasSimon_eje1.cpp.s
-.PHONY : parcial2/LlamosasSimon_eje1.s
+parcial2/1.LlamosasSimon_eje1.s: parcial2/1.LlamosasSimon_eje1.cpp.s
+.PHONY : parcial2/1.LlamosasSimon_eje1.s
 
 # target to generate assembly for a file
-parcial2/LlamosasSimon_eje1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eje1.dir\build.make CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.s
-.PHONY : parcial2/LlamosasSimon_eje1.cpp.s
+parcial2/1.LlamosasSimon_eje1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1eje.dir\build.make CMakeFiles/1eje.dir/parcial2/1.LlamosasSimon_eje1.cpp.s
+.PHONY : parcial2/1.LlamosasSimon_eje1.cpp.s
+
+parcial2/2.LlamosasSimon_eje2.obj: parcial2/2.LlamosasSimon_eje2.cpp.obj
+.PHONY : parcial2/2.LlamosasSimon_eje2.obj
+
+# target to build an object file
+parcial2/2.LlamosasSimon_eje2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2eje.dir\build.make CMakeFiles/2eje.dir/parcial2/2.LlamosasSimon_eje2.cpp.obj
+.PHONY : parcial2/2.LlamosasSimon_eje2.cpp.obj
+
+parcial2/2.LlamosasSimon_eje2.i: parcial2/2.LlamosasSimon_eje2.cpp.i
+.PHONY : parcial2/2.LlamosasSimon_eje2.i
+
+# target to preprocess a source file
+parcial2/2.LlamosasSimon_eje2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2eje.dir\build.make CMakeFiles/2eje.dir/parcial2/2.LlamosasSimon_eje2.cpp.i
+.PHONY : parcial2/2.LlamosasSimon_eje2.cpp.i
+
+parcial2/2.LlamosasSimon_eje2.s: parcial2/2.LlamosasSimon_eje2.cpp.s
+.PHONY : parcial2/2.LlamosasSimon_eje2.s
+
+# target to generate assembly for a file
+parcial2/2.LlamosasSimon_eje2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2eje.dir\build.make CMakeFiles/2eje.dir/parcial2/2.LlamosasSimon_eje2.cpp.s
+.PHONY : parcial2/2.LlamosasSimon_eje2.cpp.s
+
+parcial2/hola.obj: parcial2/hola.cpp.obj
+.PHONY : parcial2/hola.obj
+
+# target to build an object file
+parcial2/hola.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3eje.dir\build.make CMakeFiles/3eje.dir/parcial2/hola.cpp.obj
+.PHONY : parcial2/hola.cpp.obj
+
+parcial2/hola.i: parcial2/hola.cpp.i
+.PHONY : parcial2/hola.i
+
+# target to preprocess a source file
+parcial2/hola.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3eje.dir\build.make CMakeFiles/3eje.dir/parcial2/hola.cpp.i
+.PHONY : parcial2/hola.cpp.i
+
+parcial2/hola.s: parcial2/hola.cpp.s
+.PHONY : parcial2/hola.s
+
+# target to generate assembly for a file
+parcial2/hola.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3eje.dir\build.make CMakeFiles/3eje.dir/parcial2/hola.cpp.s
+.PHONY : parcial2/hola.cpp.s
 
 pilas/1.stack.obj: pilas/1.stack.cpp.obj
 .PHONY : pilas/1.stack.obj
@@ -1699,15 +1773,17 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 1eje
 	@echo ... 1integrador
+	@echo ... 2eje
 	@echo ... 2integrador
+	@echo ... 3eje
 	@echo ... 3integrador
 	@echo ... 4integrador
 	@echo ... 5integrador
 	@echo ... 6integrador
 	@echo ... abc
 	@echo ... books
-	@echo ... eje1
 	@echo ... ejercicio1
 	@echo ... ejercicio2
 	@echo ... ejercicio3
@@ -1838,9 +1914,15 @@ help:
 	@echo ... parcial1/llamosas_simon_eje3.obj
 	@echo ... parcial1/llamosas_simon_eje3.i
 	@echo ... parcial1/llamosas_simon_eje3.s
-	@echo ... parcial2/LlamosasSimon_eje1.obj
-	@echo ... parcial2/LlamosasSimon_eje1.i
-	@echo ... parcial2/LlamosasSimon_eje1.s
+	@echo ... parcial2/1.LlamosasSimon_eje1.obj
+	@echo ... parcial2/1.LlamosasSimon_eje1.i
+	@echo ... parcial2/1.LlamosasSimon_eje1.s
+	@echo ... parcial2/2.LlamosasSimon_eje2.obj
+	@echo ... parcial2/2.LlamosasSimon_eje2.i
+	@echo ... parcial2/2.LlamosasSimon_eje2.s
+	@echo ... parcial2/hola.obj
+	@echo ... parcial2/hola.i
+	@echo ... parcial2/hola.s
 	@echo ... pilas/1.stack.obj
 	@echo ... pilas/1.stack.i
 	@echo ... pilas/1.stack.s

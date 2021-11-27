@@ -1,0 +1,31 @@
+2. Crear en una TDA Pila con 10 números aleatorios
+del 1 al 100 que no se repitan. Luego crear las
+ siguientes funciones:
+
+1- que muestren todos los valores
+
+2- que muestre un listado con valores pares y otro
+listado con valores impares
+
+3- que sumen todos los valores
+
+4- que obtenga el valor máximo
+
+5- que obtenga el valor mínimo
+
+
+int aux;
+
+    for (int ii = 0; ii < 10; ++ii) {
+        num = rand() % 9 + 1;
+        if (ii == 0) {
+            s1.push(num);
+        } else {
+            aux = comprobarNum(s1, num);
+            if (aux != 0) {
+                s1.push(num);
+            } else {
+                ii--;
+            }
+        }
+    }

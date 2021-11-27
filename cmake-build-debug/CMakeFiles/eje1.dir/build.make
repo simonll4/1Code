@@ -65,27 +65,27 @@ include CMakeFiles/eje1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/eje1.dir/flags.make
 
-CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.obj: CMakeFiles/eje1.dir/flags.make
-CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.obj: ../parcial2/LlamosasSimon_eje1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.obj"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\eje1.dir\parcial2\LlamosasSimon_eje1.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\parcial2\LlamosasSimon_eje1.cpp"
+CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.obj: CMakeFiles/eje1.dir/flags.make
+CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.obj: ../parcial2/1.LlamosasSimon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\eje1.dir\parcial2\1.LlamosasSimon.cpp.obj -c "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\parcial2\1.LlamosasSimon.cpp"
 
-CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\parcial2\LlamosasSimon_eje1.cpp" > CMakeFiles\eje1.dir\parcial2\LlamosasSimon_eje1.cpp.i
+CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\parcial2\1.LlamosasSimon.cpp" > CMakeFiles\eje1.dir\parcial2\1.LlamosasSimon.cpp.i
 
-CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\parcial2\LlamosasSimon_eje1.cpp" -o CMakeFiles\eje1.dir\parcial2\LlamosasSimon_eje1.cpp.s
+CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\parcial2\1.LlamosasSimon.cpp" -o CMakeFiles\eje1.dir\parcial2\1.LlamosasSimon.cpp.s
 
 # Object files for target eje1
 eje1_OBJECTS = \
-"CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.obj"
+"CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.obj"
 
 # External object files for target eje1
 eje1_EXTERNAL_OBJECTS =
 
-eje1.exe: CMakeFiles/eje1.dir/parcial2/LlamosasSimon_eje1.cpp.obj
+eje1.exe: CMakeFiles/eje1.dir/parcial2/1.LlamosasSimon.cpp.obj
 eje1.exe: CMakeFiles/eje1.dir/build.make
 eje1.exe: CMakeFiles/eje1.dir/linklibs.rsp
 eje1.exe: CMakeFiles/eje1.dir/objects1.rsp

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/parcial2/1.LlamosasSimon_eje1.cpp
+iostream
+-
+LinkedList.h
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/parcial2/LinkedList.h
+queue
+-
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/parcial2/LinkedList.h
+Node.h
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/parcial2/Node.h
+
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/parcial2/Node.h
+

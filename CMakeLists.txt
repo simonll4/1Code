@@ -42,5 +42,6 @@ add_executable(3integrador integradoresP2/3.ejercicio.cpp)
 add_executable(4integrador integradoresP2/4.ejercicio.cpp)
 add_executable(5integrador integradoresP2/5.ejercicio.cpp)
 add_executable(6integrador integradoresP2/6.ejercicio.cpp)
-add_executable(eje1 parcial2/LlamosasSimon_eje1.cpp)
-
+add_executable(1eje parcial2/1.LlamosasSimon_eje1.cpp)
+add_executable(2eje parcial2/2.LlamosasSimon_eje2.cpp)
+add_executable(3eje parcial2/hola.cpp)
