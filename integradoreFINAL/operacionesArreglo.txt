@@ -1,0 +1,28 @@
+*********Valores aleatorios guardados en el vector******
+********* VALORES MAYORES A 5 ******
+Posicion: 0
+Valor: 9
+Posicion de memoria: 0x61fe00
+
+
+Posicion: 1
+Valor: 10
+Posicion de memoria: 0x61fe04
+
+
+Posicion: 2
+Valor: 9
+Posicion de memoria: 0x61fe08
+
+
+Posicion: 3
+Valor: 8
+Posicion de memoria: 0x61fe0c
+
+
+Posicion: 4
+Valor: 6
+Posicion de memoria: 0x61fe10
+
+
+Suamtoria total: 42

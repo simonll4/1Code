@@ -1,0 +1,39 @@
+Una comuna organiza las ferias culturales todos los fin de
+semanas en donde se venden artesanías elaboradas por los
+lugareños, y se ofrecen shows y comidas al paso. La comuna se
+encarga de gestionar el evento separando por sectores, y en cada
+uno de ellos hay un puesto, además la comuna ofrece los servicios
+de luz, agua y baños químicos es por ello que tiene un costo base
+de $1000. En caso de que se requiera mesa y silla se sumarán $500.
+
+Se pide generar un listado (TDA Lista) con las solicitudes de las
+personas que desean participar en la feria. Generar un menú con las
+siguientes opciones:
+
+Registrar una solicitud. El N° de solicitud deberá ser generado
+automáticamente y se solicitará que el usuario ingrese los siguientes
+datos: apellido y nombre del responsable del sector, rubro al que
+pertenece (Artesanía, Gastronomía o Espectáculo), si requiere mesa o
+silla. Luego deberá llamar a una función para calcular el monto a pagar
+y otra función para asignar el sector, los sectores deben ser consecutivos
+y no repetirse. En caso de que el rubro sea espectáculo se le asigna sector
+0 que es el escenario. Por ejemplo: Lista de solicitudes
+
+
+N.º Solicitud       Apellido        Nombre      Rubro       Requiere mesa y silla       Monto a pagar $     N.º  Sector asignado
+
+1                   Perez           Juan        Artesanía           SI                      1500                    1
+
+2                   Garcia          Marcela     Gastronomía         NO                      1000                    2
+
+3                   Gonzalez        Luis        Espectáculo         NO                      1000                    0
+
+4                   Fernandez       Laura       Artesanía           SI                      1500                    3
+
+5                   Navarro         Mirian      Espectáculo         NO                      1000                    0
+
+6                   Zárate          Santiago    Gastronomía         SI                      1500                    4
+
+Mostrar Listado de solicitudes
+
+Pasar los espectáculos a una pila y mostrar pila.

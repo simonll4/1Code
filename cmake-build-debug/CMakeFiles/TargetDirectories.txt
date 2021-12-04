@@ -14,6 +14,7 @@ G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CM
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/pointer4.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/listas6.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/pointer5.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/3inteF.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/listas5.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/pointer6.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/4integrador.dir
@@ -22,6 +23,7 @@ G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CM
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/queue1.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/ejercicio3.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/exercise2.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/5inteF.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/listastruct3.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/exercise32.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/integrador1.dir
@@ -32,13 +34,16 @@ G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CM
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/ejercicio2.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/listasclass3.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/stack1.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/4inteF.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/3integrador.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/stack2.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/2inteF.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/1integrador.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/2integrador.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/5integrador.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/edit_cache.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/3eje.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/6integrador.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/1inteF.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/1eje.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

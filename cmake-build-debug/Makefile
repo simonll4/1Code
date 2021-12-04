@@ -324,6 +324,19 @@ pointer5/fast:
 .PHONY : pointer5/fast
 
 #=============================================================================
+# Target rules for targets named 3inteF
+
+# Build rule for target.
+3inteF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3inteF
+.PHONY : 3inteF
+
+# fast build rule for target.
+3inteF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3inteF.dir\build.make CMakeFiles/3inteF.dir/build
+.PHONY : 3inteF/fast
+
+#=============================================================================
 # Target rules for targets named listas5
 
 # Build rule for target.
@@ -426,6 +439,19 @@ exercise2: cmake_check_build_system
 exercise2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise2.dir\build.make CMakeFiles/exercise2.dir/build
 .PHONY : exercise2/fast
+
+#=============================================================================
+# Target rules for targets named 5inteF
+
+# Build rule for target.
+5inteF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5inteF
+.PHONY : 5inteF
+
+# fast build rule for target.
+5inteF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5inteF.dir\build.make CMakeFiles/5inteF.dir/build
+.PHONY : 5inteF/fast
 
 #=============================================================================
 # Target rules for targets named listastruct3
@@ -558,6 +584,19 @@ stack1/fast:
 .PHONY : stack1/fast
 
 #=============================================================================
+# Target rules for targets named 4inteF
+
+# Build rule for target.
+4inteF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4inteF
+.PHONY : 4inteF
+
+# fast build rule for target.
+4inteF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4inteF.dir\build.make CMakeFiles/4inteF.dir/build
+.PHONY : 4inteF/fast
+
+#=============================================================================
 # Target rules for targets named 3integrador
 
 # Build rule for target.
@@ -582,6 +621,19 @@ stack2: cmake_check_build_system
 stack2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack2.dir\build.make CMakeFiles/stack2.dir/build
 .PHONY : stack2/fast
+
+#=============================================================================
+# Target rules for targets named 2inteF
+
+# Build rule for target.
+2inteF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2inteF
+.PHONY : 2inteF
+
+# fast build rule for target.
+2inteF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2inteF.dir\build.make CMakeFiles/2inteF.dir/build
+.PHONY : 2inteF/fast
 
 #=============================================================================
 # Target rules for targets named 1integrador
@@ -647,6 +699,19 @@ stack2/fast:
 6integrador/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6integrador.dir\build.make CMakeFiles/6integrador.dir/build
 .PHONY : 6integrador/fast
+
+#=============================================================================
+# Target rules for targets named 1inteF
+
+# Build rule for target.
+1inteF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1inteF
+.PHONY : 1inteF
+
+# fast build rule for target.
+1inteF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1inteF.dir\build.make CMakeFiles/1inteF.dir/build
+.PHONY : 1inteF/fast
 
 #=============================================================================
 # Target rules for targets named 1eje
@@ -996,6 +1061,126 @@ dinamica/3.1.exercise.s: dinamica/3.1.exercise.cpp.s
 dinamica/3.1.exercise.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/dinamica/3.1.exercise.cpp.s
 .PHONY : dinamica/3.1.exercise.cpp.s
+
+integradoreFINAL/1.integrador.obj: integradoreFINAL/1.integrador.cpp.obj
+.PHONY : integradoreFINAL/1.integrador.obj
+
+# target to build an object file
+integradoreFINAL/1.integrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1inteF.dir\build.make CMakeFiles/1inteF.dir/integradoreFINAL/1.integrador.cpp.obj
+.PHONY : integradoreFINAL/1.integrador.cpp.obj
+
+integradoreFINAL/1.integrador.i: integradoreFINAL/1.integrador.cpp.i
+.PHONY : integradoreFINAL/1.integrador.i
+
+# target to preprocess a source file
+integradoreFINAL/1.integrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1inteF.dir\build.make CMakeFiles/1inteF.dir/integradoreFINAL/1.integrador.cpp.i
+.PHONY : integradoreFINAL/1.integrador.cpp.i
+
+integradoreFINAL/1.integrador.s: integradoreFINAL/1.integrador.cpp.s
+.PHONY : integradoreFINAL/1.integrador.s
+
+# target to generate assembly for a file
+integradoreFINAL/1.integrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1inteF.dir\build.make CMakeFiles/1inteF.dir/integradoreFINAL/1.integrador.cpp.s
+.PHONY : integradoreFINAL/1.integrador.cpp.s
+
+integradoreFINAL/2.integrador.obj: integradoreFINAL/2.integrador.cpp.obj
+.PHONY : integradoreFINAL/2.integrador.obj
+
+# target to build an object file
+integradoreFINAL/2.integrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2inteF.dir\build.make CMakeFiles/2inteF.dir/integradoreFINAL/2.integrador.cpp.obj
+.PHONY : integradoreFINAL/2.integrador.cpp.obj
+
+integradoreFINAL/2.integrador.i: integradoreFINAL/2.integrador.cpp.i
+.PHONY : integradoreFINAL/2.integrador.i
+
+# target to preprocess a source file
+integradoreFINAL/2.integrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2inteF.dir\build.make CMakeFiles/2inteF.dir/integradoreFINAL/2.integrador.cpp.i
+.PHONY : integradoreFINAL/2.integrador.cpp.i
+
+integradoreFINAL/2.integrador.s: integradoreFINAL/2.integrador.cpp.s
+.PHONY : integradoreFINAL/2.integrador.s
+
+# target to generate assembly for a file
+integradoreFINAL/2.integrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2inteF.dir\build.make CMakeFiles/2inteF.dir/integradoreFINAL/2.integrador.cpp.s
+.PHONY : integradoreFINAL/2.integrador.cpp.s
+
+integradoreFINAL/3.integrador.obj: integradoreFINAL/3.integrador.cpp.obj
+.PHONY : integradoreFINAL/3.integrador.obj
+
+# target to build an object file
+integradoreFINAL/3.integrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3inteF.dir\build.make CMakeFiles/3inteF.dir/integradoreFINAL/3.integrador.cpp.obj
+.PHONY : integradoreFINAL/3.integrador.cpp.obj
+
+integradoreFINAL/3.integrador.i: integradoreFINAL/3.integrador.cpp.i
+.PHONY : integradoreFINAL/3.integrador.i
+
+# target to preprocess a source file
+integradoreFINAL/3.integrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3inteF.dir\build.make CMakeFiles/3inteF.dir/integradoreFINAL/3.integrador.cpp.i
+.PHONY : integradoreFINAL/3.integrador.cpp.i
+
+integradoreFINAL/3.integrador.s: integradoreFINAL/3.integrador.cpp.s
+.PHONY : integradoreFINAL/3.integrador.s
+
+# target to generate assembly for a file
+integradoreFINAL/3.integrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3inteF.dir\build.make CMakeFiles/3inteF.dir/integradoreFINAL/3.integrador.cpp.s
+.PHONY : integradoreFINAL/3.integrador.cpp.s
+
+integradoreFINAL/4.integrador.obj: integradoreFINAL/4.integrador.cpp.obj
+.PHONY : integradoreFINAL/4.integrador.obj
+
+# target to build an object file
+integradoreFINAL/4.integrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4inteF.dir\build.make CMakeFiles/4inteF.dir/integradoreFINAL/4.integrador.cpp.obj
+.PHONY : integradoreFINAL/4.integrador.cpp.obj
+
+integradoreFINAL/4.integrador.i: integradoreFINAL/4.integrador.cpp.i
+.PHONY : integradoreFINAL/4.integrador.i
+
+# target to preprocess a source file
+integradoreFINAL/4.integrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4inteF.dir\build.make CMakeFiles/4inteF.dir/integradoreFINAL/4.integrador.cpp.i
+.PHONY : integradoreFINAL/4.integrador.cpp.i
+
+integradoreFINAL/4.integrador.s: integradoreFINAL/4.integrador.cpp.s
+.PHONY : integradoreFINAL/4.integrador.s
+
+# target to generate assembly for a file
+integradoreFINAL/4.integrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4inteF.dir\build.make CMakeFiles/4inteF.dir/integradoreFINAL/4.integrador.cpp.s
+.PHONY : integradoreFINAL/4.integrador.cpp.s
+
+integradoreFINAL/5.integrador.obj: integradoreFINAL/5.integrador.cpp.obj
+.PHONY : integradoreFINAL/5.integrador.obj
+
+# target to build an object file
+integradoreFINAL/5.integrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5inteF.dir\build.make CMakeFiles/5inteF.dir/integradoreFINAL/5.integrador.cpp.obj
+.PHONY : integradoreFINAL/5.integrador.cpp.obj
+
+integradoreFINAL/5.integrador.i: integradoreFINAL/5.integrador.cpp.i
+.PHONY : integradoreFINAL/5.integrador.i
+
+# target to preprocess a source file
+integradoreFINAL/5.integrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5inteF.dir\build.make CMakeFiles/5inteF.dir/integradoreFINAL/5.integrador.cpp.i
+.PHONY : integradoreFINAL/5.integrador.cpp.i
+
+integradoreFINAL/5.integrador.s: integradoreFINAL/5.integrador.cpp.s
+.PHONY : integradoreFINAL/5.integrador.s
+
+# target to generate assembly for a file
+integradoreFINAL/5.integrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5inteF.dir\build.make CMakeFiles/5inteF.dir/integradoreFINAL/5.integrador.cpp.s
+.PHONY : integradoreFINAL/5.integrador.cpp.s
 
 integradoresP1/1.MdinamicaRecursividad.obj: integradoresP1/1.MdinamicaRecursividad.cpp.obj
 .PHONY : integradoresP1/1.MdinamicaRecursividad.obj
@@ -1774,12 +1959,17 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1eje
+	@echo ... 1inteF
 	@echo ... 1integrador
 	@echo ... 2eje
+	@echo ... 2inteF
 	@echo ... 2integrador
 	@echo ... 3eje
+	@echo ... 3inteF
 	@echo ... 3integrador
+	@echo ... 4inteF
 	@echo ... 4integrador
+	@echo ... 5inteF
 	@echo ... 5integrador
 	@echo ... 6integrador
 	@echo ... abc
@@ -1857,6 +2047,21 @@ help:
 	@echo ... dinamica/3.1.exercise.obj
 	@echo ... dinamica/3.1.exercise.i
 	@echo ... dinamica/3.1.exercise.s
+	@echo ... integradoreFINAL/1.integrador.obj
+	@echo ... integradoreFINAL/1.integrador.i
+	@echo ... integradoreFINAL/1.integrador.s
+	@echo ... integradoreFINAL/2.integrador.obj
+	@echo ... integradoreFINAL/2.integrador.i
+	@echo ... integradoreFINAL/2.integrador.s
+	@echo ... integradoreFINAL/3.integrador.obj
+	@echo ... integradoreFINAL/3.integrador.i
+	@echo ... integradoreFINAL/3.integrador.s
+	@echo ... integradoreFINAL/4.integrador.obj
+	@echo ... integradoreFINAL/4.integrador.i
+	@echo ... integradoreFINAL/4.integrador.s
+	@echo ... integradoreFINAL/5.integrador.obj
+	@echo ... integradoreFINAL/5.integrador.i
+	@echo ... integradoreFINAL/5.integrador.s
 	@echo ... integradoresP1/1.MdinamicaRecursividad.obj
 	@echo ... integradoresP1/1.MdinamicaRecursividad.i
 	@echo ... integradoresP1/1.MdinamicaRecursividad.s

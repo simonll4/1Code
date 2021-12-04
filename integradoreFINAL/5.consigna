@@ -1,0 +1,45 @@
+El gerente de una empresa de software quiere dar reconocimiento y
+otorgar incentivos a sus mejores programadores de acuerdo a su
+desempeño. Para ello fijó los siguientes criterios para calcular el
+incentivo: (crear una función por cada criterio)
+
+Según su antigüedad, es decir la cantidad de meses que está programando.
+Por cada mes de antigüedad se calcula un incentivo parcial de $30.
+
+Según la cantidad de líneas de código que ha programado en el mes. Una
+línea de código equivale a $15
+
+Según la cantidad de errores que ha introducido en el código en el mes.
+Dependiendo del tipo de error es la penalización (descuento) que tendrá
+el incentivo.
+
+Por cada error de sintaxis se le descontará $3
+Por cada error de enlace se le descontará $5
+Por cada error de ejecución se le descontará $7
+Por cada error de semántica se le descontará $10
+En el caso de que se el programador tenga más o igual cantidad de errores que
+líneas de código escritas, el programador no tendrá incentivo este mes.
+
+Crear un menú de opciones con las siguientes operaciones:
+
+Cargar datos.
+
+Mostrar un listado (TDA Lista) de los incentivos percibidos por los programadores.
+Por ejemplo:
+
+LISTADO DE INCENTIVOS A LOS PROGRAMADORES - MES JULIO 2020
+
+
+Apellido y nombre       Incentivo por   Antigüedad(a)       Incentivo por cantidad de líneas de código(c)       Penalización por cantidad de errores(d)         Incentivo total
+
+
+
+
+Mostrar el mejor programador del mes. Es quien tiene más líneas de código con menos errores.
+
+Mostrar un TDA Pila de todos los incentivos totales por cada programador, es decir generar y mostrar una pila con todos los incentivos.
+
+Mostrar un TDA Cola de todas las penalizaciones totales por cada programador, es decir generar y mostrar una cola con todas las penalizaciones por errores en el código.
+
+Generar un archivo txt con el listado de incentivos a los programadores.
+

@@ -1,0 +1,6 @@
+Numero de programador: 1	Por Antiguedad: 420$	Por Lineas de codigo: 15000$	Descuento por Errores: 	1149$	Total: 	14271$	
+
+Numero de programador: 2	Por Antiguedad: 450$	Por Lineas de codigo: 150000$	Descuento por Errores: 	1760$	Total: 	148690$	
+
+Numero de programador: 3	Por Antiguedad: 0$	Por Lineas de codigo: 0$	Descuento por Errores: 	0$	Total: 	0$	
+
