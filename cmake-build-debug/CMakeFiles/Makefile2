@@ -109,6 +109,7 @@ all: CMakeFiles/3eje.dir/all
 all: CMakeFiles/6integrador.dir/all
 all: CMakeFiles/1inteF.dir/all
 all: CMakeFiles/1eje.dir/all
+all: CMakeFiles/pruebamemoria.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -163,6 +164,7 @@ clean: CMakeFiles/3eje.dir/clean
 clean: CMakeFiles/6integrador.dir/clean
 clean: CMakeFiles/1inteF.dir/clean
 clean: CMakeFiles/1eje.dir/clean
+clean: CMakeFiles/pruebamemoria.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -224,7 +226,7 @@ CMakeFiles/pointer1.dir/clean:
 CMakeFiles/struct_employee.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_employee.dir\build.make CMakeFiles/struct_employee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=97,98 "Built target struct_employee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=99,100 "Built target struct_employee"
 .PHONY : CMakeFiles/struct_employee.dir/all
 
 # Build rule for subdir invocation for target.
@@ -692,7 +694,7 @@ CMakeFiles/4integrador.dir/clean:
 CMakeFiles/queue2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue2.dir\build.make CMakeFiles/queue2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue2.dir\build.make CMakeFiles/queue2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=91,92 "Built target queue2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=93,94 "Built target queue2"
 .PHONY : CMakeFiles/queue2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -744,7 +746,7 @@ CMakeFiles/exercise1.dir/clean:
 CMakeFiles/queue1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue1.dir\build.make CMakeFiles/queue1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue1.dir\build.make CMakeFiles/queue1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=89,90 "Built target queue1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=91,92 "Built target queue1"
 .PHONY : CMakeFiles/queue1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1082,7 +1084,7 @@ CMakeFiles/listasclass3.dir/clean:
 CMakeFiles/stack1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack1.dir\build.make CMakeFiles/stack1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack1.dir\build.make CMakeFiles/stack1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=93,94 "Built target stack1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=95,96 "Built target stack1"
 .PHONY : CMakeFiles/stack1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1160,7 +1162,7 @@ CMakeFiles/3integrador.dir/clean:
 CMakeFiles/stack2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack2.dir\build.make CMakeFiles/stack2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack2.dir\build.make CMakeFiles/stack2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=95,96 "Built target stack2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=97,98 "Built target stack2"
 .PHONY : CMakeFiles/stack2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1386,6 +1388,32 @@ CMakeFiles/1eje.dir/rule: cmake_check_build_system
 CMakeFiles/1eje.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1eje.dir\build.make CMakeFiles/1eje.dir/clean
 .PHONY : CMakeFiles/1eje.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pruebamemoria.dir
+
+# All Build rule for target.
+CMakeFiles/pruebamemoria.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pruebamemoria.dir\build.make CMakeFiles/pruebamemoria.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pruebamemoria.dir\build.make CMakeFiles/pruebamemoria.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" --progress-num=89,90 "Built target pruebamemoria"
+.PHONY : CMakeFiles/pruebamemoria.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pruebamemoria.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pruebamemoria.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Mi unidad\segundo_semestre\info 2\codigos1\Clion codigos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pruebamemoria.dir/rule
+
+# Convenience name for target.
+pruebamemoria: CMakeFiles/pruebamemoria.dir/rule
+.PHONY : pruebamemoria
+
+# clean rule for target.
+CMakeFiles/pruebamemoria.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pruebamemoria.dir\build.make CMakeFiles/pruebamemoria.dir/clean
+.PHONY : CMakeFiles/pruebamemoria.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

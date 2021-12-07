@@ -726,6 +726,19 @@ stack2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1eje.dir\build.make CMakeFiles/1eje.dir/build
 .PHONY : 1eje/fast
 
+#=============================================================================
+# Target rules for targets named pruebamemoria
+
+# Build rule for target.
+pruebamemoria: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pruebamemoria
+.PHONY : pruebamemoria
+
+# fast build rule for target.
+pruebamemoria/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pruebamemoria.dir\build.make CMakeFiles/pruebamemoria.dir/build
+.PHONY : pruebamemoria/fast
+
 abecedarioASCCI.obj: abecedarioASCCI.cpp.obj
 .PHONY : abecedarioASCCI.obj
 
@@ -1061,6 +1074,30 @@ dinamica/3.1.exercise.s: dinamica/3.1.exercise.cpp.s
 dinamica/3.1.exercise.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise32.dir\build.make CMakeFiles/exercise32.dir/dinamica/3.1.exercise.cpp.s
 .PHONY : dinamica/3.1.exercise.cpp.s
+
+dinamica/4.prueba.obj: dinamica/4.prueba.cpp.obj
+.PHONY : dinamica/4.prueba.obj
+
+# target to build an object file
+dinamica/4.prueba.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pruebamemoria.dir\build.make CMakeFiles/pruebamemoria.dir/dinamica/4.prueba.cpp.obj
+.PHONY : dinamica/4.prueba.cpp.obj
+
+dinamica/4.prueba.i: dinamica/4.prueba.cpp.i
+.PHONY : dinamica/4.prueba.i
+
+# target to preprocess a source file
+dinamica/4.prueba.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pruebamemoria.dir\build.make CMakeFiles/pruebamemoria.dir/dinamica/4.prueba.cpp.i
+.PHONY : dinamica/4.prueba.cpp.i
+
+dinamica/4.prueba.s: dinamica/4.prueba.cpp.s
+.PHONY : dinamica/4.prueba.s
+
+# target to generate assembly for a file
+dinamica/4.prueba.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pruebamemoria.dir\build.make CMakeFiles/pruebamemoria.dir/dinamica/4.prueba.cpp.s
+.PHONY : dinamica/4.prueba.cpp.s
 
 integradoreFINAL/1.integrador.obj: integradoreFINAL/1.integrador.cpp.obj
 .PHONY : integradoreFINAL/1.integrador.obj
@@ -2000,6 +2037,7 @@ help:
 	@echo ... pointer4
 	@echo ... pointer5
 	@echo ... pointer6
+	@echo ... pruebamemoria
 	@echo ... queue1
 	@echo ... queue2
 	@echo ... stack1
@@ -2047,6 +2085,9 @@ help:
 	@echo ... dinamica/3.1.exercise.obj
 	@echo ... dinamica/3.1.exercise.i
 	@echo ... dinamica/3.1.exercise.s
+	@echo ... dinamica/4.prueba.obj
+	@echo ... dinamica/4.prueba.i
+	@echo ... dinamica/4.prueba.s
 	@echo ... integradoreFINAL/1.integrador.obj
 	@echo ... integradoreFINAL/1.integrador.i
 	@echo ... integradoreFINAL/1.integrador.s

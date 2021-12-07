@@ -46,4 +46,5 @@ G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CM
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/6integrador.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/1inteF.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/1eje.dir
+G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/pruebamemoria.dir
 G:/Mi unidad/segundo_semestre/info 2/codigos1/Clion codigos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

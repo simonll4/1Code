@@ -98,4 +98,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/6integrador.dir/DependInfo.cmake"
   "CMakeFiles/1inteF.dir/DependInfo.cmake"
   "CMakeFiles/1eje.dir/DependInfo.cmake"
+  "CMakeFiles/pruebamemoria.dir/DependInfo.cmake"
   )
